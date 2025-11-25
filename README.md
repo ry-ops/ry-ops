@@ -32,102 +32,50 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 
 ## 🛠️ Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+  <a href="https://github.com/ry-ops/cloudflare-mcp-server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=cloudflare-mcp-server&theme=radical" alt="cloudflare-mcp-server" />
+  </a>
+  <a href="https://github.com/ry-ops/n8n-mcp-server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=n8n-mcp-server&theme=radical" alt="n8n-mcp-server" />
+  </a>
+</p>
 
-### 🌐 [cloudflare-mcp-server](https://github.com/ry-ops/cloudflare-mcp-server)
-`Python` • `MIT License` • ⭐ 1 • 🔀 2
+<p align="center">
+  <a href="https://github.com/ry-ops/DriveIQ">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=DriveIQ&theme=radical" alt="DriveIQ" />
+  </a>
+  <a href="https://github.com/ry-ops/ResuMate">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=ResuMate&theme=radical" alt="ResuMate" />
+  </a>
+</p>
 
-Cloudflare MCP Server for seamless AI integration with Cloudflare's API. Manage DNS, workers, and infrastructure through natural language.
+<p align="center">
+  <a href="https://github.com/ry-ops/unifi-mcp-server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=unifi-mcp-server&theme=radical" alt="unifi-mcp-server" />
+  </a>
+  <a href="https://github.com/ry-ops/proxmox-mcp-server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=proxmox-mcp-server&theme=radical" alt="proxmox-mcp-server" />
+  </a>
+</p>
 
-</td>
-<td width="50%" valign="top">
+<p align="center">
+  <a href="https://github.com/ry-ops/unifi-cloudflare-ddns">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=unifi-cloudflare-ddns&theme=radical" alt="unifi-cloudflare-ddns" />
+  </a>
+  <a href="https://github.com/ry-ops/unifi-grafana-streamer">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=unifi-grafana-streamer&theme=radical" alt="unifi-grafana-streamer" />
+  </a>
+</p>
 
-### 🤖 [n8n-mcp-server](https://github.com/ry-ops/n8n-mcp-server)
-`Python` • `MIT License`
-
-MCP server for n8n workflow automation. Integrate AI with your automation workflows and manage deployments through natural language using Claude AI.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🚗 [DriveIQ](https://github.com/ry-ops/DriveIQ)
-`Python` • `MIT License`
-
-Vehicle management app for 2018 Toyota 4Runner SR5 Premium - maintenance tracking, reminders, and AI-powered manual consultation.
-
-</td>
-<td width="50%" valign="top">
-
-### 📄 [ResuMate](https://github.com/ry-ops/ResuMate)
-`JavaScript`
-
-AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server)
-`Python` • ⭐ 2
-
-MCP server for UniFi network management. Enables AI assistants to query network status, manage devices, and troubleshoot issues conversationally.
-
-</td>
-<td width="50%" valign="top">
-
-### 🖥️ [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server)
-`Python` • ⭐ 1
-
-MCP server for Proxmox virtualization platform. Query VM status, manage resources, and orchestrate infrastructure via AI assistants.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns)
-`TypeScript` • `MIT License` • ⭐ 1
-
-Dynamic DNS solution for UniFi devices using Cloudflare. Automatically updates DNS records when your public IP changes, perfect for home labs and remote access setups.
-
-</td>
-<td width="50%" valign="top">
-
-### 📊 [unifi-grafana-streamer](https://github.com/ry-ops/unifi-grafana-streamer)
-`Python` • `MIT License`
-
-Real-time event streaming from UniFi networks to Grafana. Polls UniFi events and pushes alerts and metrics for comprehensive network observability.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ [talos-a2a-mcp-server](https://github.com/ry-ops/talos-a2a-mcp-server)
-`Python` • `MIT License`
-
-An MCP server that provides AI assistants with the ability to interact with Talos Linux clusters through the Talos API.
-
-</td>
-<td width="50%" valign="top">
-
-### 🛰️ [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server)
-`Python`
-
-MCP server for Starlink Enterprise connectivity. Monitor satellite connectivity, manage network configs, and get real-time status updates.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/ry-ops/talos-a2a-mcp-server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=talos-a2a-mcp-server&theme=radical" alt="talos-a2a-mcp-server" />
+  </a>
+  <a href="https://github.com/ry-ops/starlink-enterprise-mcp-server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=starlink-enterprise-mcp-server&theme=radical" alt="starlink-enterprise-mcp-server" />
+  </a>
+</p>
 
 ---
 
