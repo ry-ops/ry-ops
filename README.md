@@ -32,50 +32,182 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 
 ## 🛠️ Featured Projects
 
-<p align="center">
-  <a href="https://github.com/ry-ops/cloudflare-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=cloudflare-mcp-server&theme=radical" alt="cloudflare-mcp-server" />
-  </a>
-  <a href="https://github.com/ry-ops/n8n-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=n8n-mcp-server&theme=radical" alt="n8n-mcp-server" />
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/ry-ops/DriveIQ">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=DriveIQ&theme=radical" alt="DriveIQ" />
-  </a>
-  <a href="https://github.com/ry-ops/ResuMate">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=ResuMate&theme=radical" alt="ResuMate" />
-  </a>
-</p>
+<table>
+<tr>
+<td width="50%">
+<h3 align="center">🌐 Cloudflare MCP Server</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/cloudflare-mcp-server">
+<img src="https://img.shields.io/badge/Cloudflare-MCP-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - Cloudflare MCP Server for seamless AI integration with Cloudflare's API. Manage DNS, workers, and infrastructure through natural language.</p>
+<a href="https://github.com/ry-ops/cloudflare-mcp-server">
+<img src="https://img.shields.io/github/stars/ry-ops/cloudflare-mcp-server?style=social" />
+</a>
+<a href="https://github.com/ry-ops/cloudflare-mcp-server/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/cloudflare-mcp-server?style=social" />
+</a>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">🤖 n8n MCP Server</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/n8n-mcp-server">
+<img src="https://img.shields.io/badge/n8n-MCP-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - MCP server for n8n workflow automation. Integrate AI with your automation workflows and manage deployments through natural language.</p>
+<a href="https://github.com/ry-ops/n8n-mcp-server">
+<img src="https://img.shields.io/github/stars/ry-ops/n8n-mcp-server?style=social" />
+</a>
+<a href="https://github.com/ry-ops/n8n-mcp-server/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/n8n-mcp-server?style=social" />
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">🚗 DriveIQ</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/DriveIQ">
+<img src="https://img.shields.io/badge/DriveIQ-Vehicle_Management-007ACC?style=for-the-badge&logo=toyota&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - Vehicle management app for 2018 Toyota 4Runner SR5 Premium. Maintenance tracking, reminders, and AI-powered manual consultation.</p>
+<a href="https://github.com/ry-ops/DriveIQ">
+<img src="https://img.shields.io/github/stars/ry-ops/DriveIQ?style=social" />
+</a>
+<a href="https://github.com/ry-ops/DriveIQ/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/DriveIQ?style=social" />
+</a>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">📄 ResuMate</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/ResuMate">
+<img src="https://img.shields.io/badge/ResuMate-AI_Resume_Tool-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</a>
+<br><br>
+<p><strong>JavaScript</strong> - AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility.</p>
+<a href="https://github.com/ry-ops/ResuMate">
+<img src="https://img.shields.io/github/stars/ry-ops/ResuMate?style=social" />
+</a>
+<a href="https://github.com/ry-ops/ResuMate/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/ResuMate?style=social" />
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">🌐 UniFi MCP Server</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/unifi-mcp-server">
+<img src="https://img.shields.io/badge/UniFi-MCP-0559C9?style=for-the-badge&logo=ubiquiti&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - MCP server for UniFi network management. Enables AI assistants to query network status, manage devices, and troubleshoot issues conversationally.</p>
+<a href="https://github.com/ry-ops/unifi-mcp-server">
+<img src="https://img.shields.io/github/stars/ry-ops/unifi-mcp-server?style=social" />
+</a>
+<a href="https://github.com/ry-ops/unifi-mcp-server/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/unifi-mcp-server?style=social" />
+</a>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">🖥️ Proxmox MCP Server</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/proxmox-mcp-server">
+<img src="https://img.shields.io/badge/Proxmox-MCP-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - MCP server for Proxmox virtualization platform. Query VM status, manage resources, and orchestrate infrastructure via AI assistants.</p>
+<a href="https://github.com/ry-ops/proxmox-mcp-server">
+<img src="https://img.shields.io/github/stars/ry-ops/proxmox-mcp-server?style=social" />
+</a>
+<a href="https://github.com/ry-ops/proxmox-mcp-server/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/proxmox-mcp-server?style=social" />
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">🌐 UniFi Cloudflare DDNS</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/unifi-cloudflare-ddns">
+<img src="https://img.shields.io/badge/UniFi-Cloudflare_DDNS-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</a>
+<br><br>
+<p><strong>TypeScript</strong> - Dynamic DNS solution for UniFi devices using Cloudflare. Automatically updates DNS records when your public IP changes.</p>
+<a href="https://github.com/ry-ops/unifi-cloudflare-ddns">
+<img src="https://img.shields.io/github/stars/ry-ops/unifi-cloudflare-ddns?style=social" />
+</a>
+<a href="https://github.com/ry-ops/unifi-cloudflare-ddns/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/unifi-cloudflare-ddns?style=social" />
+</a>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">📊 UniFi Grafana Streamer</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/unifi-grafana-streamer">
+<img src="https://img.shields.io/badge/UniFi-Grafana_Streamer-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - Real-time event streaming from UniFi networks to Grafana. Polls UniFi events and pushes alerts and metrics for comprehensive observability.</p>
+<a href="https://github.com/ry-ops/unifi-grafana-streamer">
+<img src="https://img.shields.io/github/stars/ry-ops/unifi-grafana-streamer?style=social" />
+</a>
+<a href="https://github.com/ry-ops/unifi-grafana-streamer/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/unifi-grafana-streamer?style=social" />
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">⚙️ Talos A2A MCP Server</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/talos-a2a-mcp-server">
+<img src="https://img.shields.io/badge/Talos-A2A_MCP-FF6A00?style=for-the-badge&logo=kubernetes&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - An MCP server that provides AI assistants with the ability to interact with Talos Linux clusters through the Talos API.</p>
+<a href="https://github.com/ry-ops/talos-a2a-mcp-server">
+<img src="https://img.shields.io/github/stars/ry-ops/talos-a2a-mcp-server?style=social" />
+</a>
+<a href="https://github.com/ry-ops/talos-a2a-mcp-server/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/talos-a2a-mcp-server?style=social" />
+</a>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">🛰️ Starlink Enterprise MCP</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/starlink-enterprise-mcp-server">
+<img src="https://img.shields.io/badge/Starlink-Enterprise_MCP-000000?style=for-the-badge&logo=spacex&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - MCP server for Starlink Enterprise connectivity. Monitor satellite connectivity, manage network configs, and get real-time status updates.</p>
+<a href="https://github.com/ry-ops/starlink-enterprise-mcp-server">
+<img src="https://img.shields.io/github/stars/ry-ops/starlink-enterprise-mcp-server?style=social" />
+</a>
+<a href="https://github.com/ry-ops/starlink-enterprise-mcp-server/fork">
+<img src="https://img.shields.io/github/forks/ry-ops/starlink-enterprise-mcp-server?style=social" />
+</a>
+</div>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <a href="https://github.com/ry-ops/unifi-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=unifi-mcp-server&theme=radical" alt="unifi-mcp-server" />
-  </a>
-  <a href="https://github.com/ry-ops/proxmox-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=proxmox-mcp-server&theme=radical" alt="proxmox-mcp-server" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ry-ops/unifi-cloudflare-ddns">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=unifi-cloudflare-ddns&theme=radical" alt="unifi-cloudflare-ddns" />
-  </a>
-  <a href="https://github.com/ry-ops/unifi-grafana-streamer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=unifi-grafana-streamer&theme=radical" alt="unifi-grafana-streamer" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ry-ops/talos-a2a-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=talos-a2a-mcp-server&theme=radical" alt="talos-a2a-mcp-server" />
-  </a>
-  <a href="https://github.com/ry-ops/starlink-enterprise-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ry-ops&repo=starlink-enterprise-mcp-server&theme=radical" alt="starlink-enterprise-mcp-server" />
-  </a>
-</p>
+</div>
 
 ---
 
