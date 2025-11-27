@@ -1,4 +1,4 @@
-<img src="[https://github.com/ry-ops/commit-relay/blob/main/commit-relay.png](https://github.com/ry-ops/cortex/blob/main/commit-relay.png)" width="100%">
+<img src="https://github.com/ry-ops/cortex/blob/main/commit-relay.png?raw=true" width="100%">
 
 # 👋 Hey, I'm ry-ops
 
