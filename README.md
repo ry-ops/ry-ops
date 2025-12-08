@@ -85,7 +85,7 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 </div>
 </td>
 <td width="50%">
-<h3 align="center">📄 ResuMate</h3>
+<h3 align="center">📄 ATSFlow</h3>
 <div align="center">
 <a href="https://github.com/ry-ops/ResuMate">
 <img src="https://img.shields.io/badge/ResuMate-AI_Resume_Tool-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
