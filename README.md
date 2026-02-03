@@ -22,7 +22,7 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 
 **MCP Server Development**
 - Creating MCP servers that enable AI assistants to interact with infrastructure
-- Supporting platforms like UniFi, Proxmox, n8n, K3s, and Starlink Enterprise
+- Supporting platforms like UniFi, Proxmox, n8n, K3s, Starlink Enterprise, and Microsoft 365
 - Making network operations AI-accessible and conversational
 
 **Observability & Monitoring**
@@ -40,30 +40,41 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
+<h3 align="center">🧠 Aiana</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/aiana">
+<img src="https://img.shields.io/badge/Aiana-AI_Memory-7C3AED?style=for-the-badge&logo=brain&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - Personal AI Operations Memory for Claude Code. Captures conversations, embeds as vectors, and injects relevant context. Features memory feedback system for continuous learning.</p>
+<a href="https://ry-ops.dev/posts/2026-02-01-personal-ai-operations-memory">
+<img src="https://img.shields.io/badge/Read_the_Blog_Post-→-7C3AED?style=flat-square" />
+</a>
+</div>
+</td>
+<td width="33%">
 <h3 align="center">🚜 Git-Steer</h3>
 <div align="center">
 <a href="https://github.com/ry-ops/git-steer">
 <img src="https://img.shields.io/badge/Git--Steer-GitHub_Autonomy-0d9488?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <br><br>
-<p><strong>TypeScript</strong> - Self-hosting GitHub autonomy engine. Full control over repos, branches, security, and Actions through natural language via MCP. Zero local footprint—your PC or Mac is just the steering wheel.</p>
+<p><strong>TypeScript</strong> - Self-hosting GitHub autonomy engine. Full control over repos, branches, security, and Actions through natural language via MCP.</p>
 <a href="https://ry-ops.dev/posts/2026-02-01-git-steer">
 <img src="https://img.shields.io/badge/Read_the_Blog_Post-→-00A67E?style=flat-square" />
 </a>
 </div>
 </td>
-<td width="50%">
-<h3 align="center">🧠 Cortex</h3>
+<td width="33%">
+<h3 align="center">🚗 DriveIQ</h3>
 <div align="center">
-<a href="https://github.com/ry-ops/cortex">
-<img src="https://img.shields.io/badge/Cortex-AI_Agent_System-8B5CF6?style=for-the-badge&logo=openai&logoColor=white" />
+<a href="https://github.com/ry-ops/DriveIQ">
+<img src="https://img.shields.io/badge/DriveIQ-Vehicle_Mgmt-007ACC?style=for-the-badge&logo=toyota&logoColor=white" />
 </a>
 <br><br>
-<p><strong>Python</strong> - Multi-agent AI system for autonomous GitHub repository management. Self-improving with RLHF feedback loops, self-evaluation gates, and adaptive task routing.</p>
-<a href="https://ry-ops.dev/meet-cortex">
-<img src="https://img.shields.io/badge/Meet_Cortex-→-8B5CF6?style=flat-square" />
-</a>
+<p><strong>Python</strong> - Vehicle management with maintenance tracking, reminders, and AI-powered manual consultation using RAG.</p>
+<img src="https://img.shields.io/github/stars/ry-ops/DriveIQ?style=social" />
 </div>
 </td>
 </tr>
@@ -81,7 +92,6 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 </a>
 <br><br>
 <p><strong>Python</strong> - Comprehensive UniFi infrastructure monitoring and management with A2A support.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/unifi-mcp-server?style=social" />
 </div>
 </td>
 <td width="33%">
@@ -92,7 +102,6 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 </a>
 <br><br>
 <p><strong>Python</strong> - Manage Proxmox VMs, containers, storage, and cluster resources via AI.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/proxmox-mcp-server?style=social" />
 </div>
 </td>
 <td width="33%">
@@ -103,7 +112,6 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 </a>
 <br><br>
 <p><strong>Python</strong> - K3s cluster management with kubectl operations for Claude.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/k3s-mcp-server?style=social" />
 </div>
 </td>
 </tr>
@@ -116,18 +124,6 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 </a>
 <br><br>
 <p><strong>Python</strong> - Manage DNS, workers, and infrastructure through natural language.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/cloudflare-mcp-server?style=social" />
-</div>
-</td>
-<td width="33%">
-<h3 align="center">🤖 n8n MCP</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/n8n-mcp-server">
-<img src="https://img.shields.io/badge/n8n-MCP-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Integrate AI with n8n workflow automation.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/n8n-mcp-server?style=social" />
 </div>
 </td>
 <td width="33%">
@@ -137,48 +133,42 @@ I specialize in **network infrastructure automation** and **AI-assisted operatio
 <img src="https://img.shields.io/badge/Starlink-MCP-000000?style=for-the-badge&logo=spacex&logoColor=white" />
 </a>
 <br><br>
-<p><strong>Python</strong> - Monitor Starlink Enterprise connectivity and status.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/starlink-enterprise-mcp-server?style=social" />
+<p><strong>Python</strong> - Manage Starlink Enterprise terminal fleet via AI.</p>
+</div>
+</td>
+<td width="33%">
+<h3 align="center">Ⓜ️ Microsoft 365 MCP</h3>
+<div align="center">
+<a href="https://github.com/ry-ops/microsoft-graph-mcp-server">
+<img src="https://img.shields.io/badge/Microsoft_365-MCP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+</a>
+<br><br>
+<p><strong>Python</strong> - Manage M365 users, licenses, and groups via Graph API.</p>
 </div>
 </td>
 </tr>
 </table>
 
-### 🛠️ Tools & Utilities
+### 📚 Tutorials & Guides
 
 <table>
 <tr>
-<td width="33%">
-<h3 align="center">🚗 DriveIQ</h3>
+<td width="50%">
+<h3 align="center">🤖 Building Your First Claude Agent</h3>
 <div align="center">
-<a href="https://github.com/ry-ops/DriveIQ">
-<img src="https://img.shields.io/badge/DriveIQ-Vehicle_Mgmt-007ACC?style=for-the-badge&logo=toyota&logoColor=white" />
+<a href="https://github.com/ry-ops/building-your-first-claude-agent">
+<img src="https://img.shields.io/badge/Tutorial-Claude_Agents-00A67E?style=for-the-badge" />
 </a>
-<br><br>
-<p><strong>Python</strong> - Vehicle management with maintenance tracking and AI-powered manual consultation.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/DriveIQ?style=social" />
+<p>Learn to build intelligent agents with Claude that automate your workflow.</p>
 </div>
 </td>
-<td width="33%">
-<h3 align="center">📄 ATSFlow</h3>
+<td width="50%">
+<h3 align="center">🔌 Creating Your First MCP Server</h3>
 <div align="center">
-<a href="https://github.com/ry-ops/ATSFlow">
-<img src="https://img.shields.io/badge/ATSFlow-Resume_AI-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<a href="https://github.com/ry-ops/creating-your-first-mcp-server">
+<img src="https://img.shields.io/badge/Tutorial-MCP_Servers-00A67E?style=for-the-badge" />
 </a>
-<br><br>
-<p><strong>JavaScript</strong> - AI-powered resume optimization for ATS/LPS compatibility.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/ATSFlow?style=social" />
-</div>
-</td>
-<td width="33%">
-<h3 align="center">🌐 UniFi DDNS</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/unifi-cloudflare-ddns">
-<img src="https://img.shields.io/badge/UniFi-DDNS-3178C6?style=for-the-badge&logo=cloudflare&logoColor=white" />
-</a>
-<br><br>
-<p><strong>TypeScript</strong> - Dynamic DNS for UniFi devices using Cloudflare Workers.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/unifi-cloudflare-ddns?style=social" />
+<p>Extend Claude with custom tools by building Model Context Protocol servers.</p>
 </div>
 </td>
 </tr>
@@ -207,8 +197,8 @@ Infrastructure:  UniFi, Proxmox, Cloudflare, Starlink, Talos Linux, K3s
 Platforms:       Kubernetes, Docker, GitHub Actions
 Observability:   Grafana, Prometheus, Netdata, CheckMK
 Automation:      n8n, MCP Servers, GitHub Actions
+AI/ML:           Claude AI, MCP Protocol, Qdrant, Sentence Transformers
 Web:             Astro, Cloudflare Pages
-AI/ML:           Claude AI, MCP Protocol, LLM Integration
 ```
 
 ---
@@ -227,6 +217,7 @@ I believe in:
 
 Check out [ry-ops.dev](https://ry-ops.dev) for tutorials, project deep-dives, and infrastructure guides:
 
+- [Personal AI Operations Memory with Aiana](https://ry-ops.dev/posts/2026-02-01-personal-ai-operations-memory)
 - [Git-Steer: A Self-Hosting GitHub Autonomy Engine](https://ry-ops.dev/posts/2026-02-01-git-steer)
 - [Building Your First MCP Server](https://ry-ops.dev/posts/creating-your-first-mcp-server)
 - [Deploying Your First Kubernetes Cluster](https://ry-ops.dev/posts/deploying-your-first-kubernetes-cluster)
