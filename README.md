@@ -232,15 +232,6 @@ If you find these projects useful, consider:
 
 ---
 
-## 📫 Connect
-
-- 🌐 Blog: [ry-ops.dev](https://ry-ops.dev)
-- 💻 GitHub: [@ry-ops](https://github.com/ry-ops)
-- 💖 Patreon: [ry_ops](https://patreon.com/ry_ops)
-- 📍 Location: Duluth, Minnesota
-
----
-
 <div align="center">
   <sub>Built with ❤️ and way too much coffee</sub>
 </div>
