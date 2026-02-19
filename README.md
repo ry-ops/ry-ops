@@ -4,8 +4,6 @@
 
 # 👋 Hey, I'm ry-ops
 
-[![Blog](https://img.shields.io/badge/Blog-ry--ops.dev-00A67E?style=flat-square&logo=astro&logoColor=white)](https://ry-ops.dev) [![Patreon](https://img.shields.io/badge/Patreon-Support-f96854?style=flat-square&logo=patreon)](https://patreon.com/ry_ops) [![GitHub](https://img.shields.io/badge/GitHub-ry--ops-181717?style=flat-square&logo=github)](https://github.com/ry-ops) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-Server_Developer-00A67E?style=flat-square) ![Location](https://img.shields.io/badge/📍-Duluth_MN-blue?style=flat-square)
-
 > Building the pipes between infrastructure, automation, and observability.
 
 ## 🚀 What I Do
