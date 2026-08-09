@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="git-ops.png" alt="ry-ops banner" width="100%" />
-</div>
-
 # 👋 Hey, I'm ry-ops
 
 > Building the pipes between infrastructure, automation, and observability.
