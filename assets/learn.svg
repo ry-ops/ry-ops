@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-labelledby="t d">
+  <title id="t">Learning track</title>
+  <desc id="d">Eight hands-on tutorials as stations on a metro line: Docker containers, FastAPI REST APIs, GitHub Actions CI/CD, K3s Kubernetes, Prometheus + Grafana, Astro + Cloudflare, MCP first server, Claude first agent.</desc>
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    @media (prefers-reduced-motion:reduce){.pkt{display:none}}
+  </style>
+  <rect x="1" y="1" width="898" height="228" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="36" class="mono" font-size="12" fill="#8b949e">LINE 1 · 8 tutorials · all aboard</text>
+  <path id="track" d="M70 132H830" fill="none"/>
+  <g fill="none"><path d="M70.0 132H178.6" stroke="#58a6ff" stroke-width="8" stroke-linecap="round"/><path d="M178.6 132H287.1" stroke="#3fb950" stroke-width="8" stroke-linecap="round"/><path d="M287.1 132H395.7" stroke="#a371f7" stroke-width="8" stroke-linecap="round"/><path d="M395.7 132H504.3" stroke="#e3b341" stroke-width="8" stroke-linecap="round"/><path d="M504.3 132H612.9" stroke="#f0883e" stroke-width="8" stroke-linecap="round"/><path d="M612.9 132H721.4" stroke="#db61a2" stroke-width="8" stroke-linecap="round"/><path d="M721.4 132H830.0" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round"/></g>
+  
+<circle cx="70.0" cy="132" r="11" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/>
+  <text x="70.0" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">1</text>
+  <text x="70.0" y="90" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">Docker</text>
+  <text x="70.0" y="108" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">containers</text>  <circle cx="178.6" cy="132" r="11" fill="#0d1117" stroke="#3fb950" stroke-width="4"/>
+  <text x="178.6" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">2</text>
+  <text x="178.6" y="170" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">FastAPI</text>
+  <text x="178.6" y="188" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">REST APIs</text>  <circle cx="287.1" cy="132" r="11" fill="#0d1117" stroke="#a371f7" stroke-width="4"/>
+  <text x="287.1" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">3</text>
+  <text x="287.1" y="90" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">GitHub Actions</text>
+  <text x="287.1" y="108" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">CI/CD</text>  <circle cx="395.7" cy="132" r="11" fill="#0d1117" stroke="#e3b341" stroke-width="4"/>
+  <text x="395.7" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">4</text>
+  <text x="395.7" y="170" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">K3s</text>
+  <text x="395.7" y="188" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">Kubernetes</text>  <circle cx="504.3" cy="132" r="11" fill="#0d1117" stroke="#f0883e" stroke-width="4"/>
+  <text x="504.3" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">5</text>
+  <text x="504.3" y="90" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">Prometheus</text>
+  <text x="504.3" y="108" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">+ Grafana</text>  <circle cx="612.9" cy="132" r="11" fill="#0d1117" stroke="#db61a2" stroke-width="4"/>
+  <text x="612.9" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">6</text>
+  <text x="612.9" y="170" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">Astro</text>
+  <text x="612.9" y="188" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">+ Cloudflare</text>  <circle cx="721.4" cy="132" r="11" fill="#0d1117" stroke="#2dd4bf" stroke-width="4"/>
+  <text x="721.4" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">7</text>
+  <text x="721.4" y="90" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">MCP</text>
+  <text x="721.4" y="108" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">first server</text>  <circle cx="830.0" cy="132" r="11" fill="#0d1117" stroke="#d97757" stroke-width="4"/>
+  <text x="830.0" y="136" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#e6edf3">8</text>
+  <text x="830.0" y="170" text-anchor="middle" class="sans" font-size="14" font-weight="600" fill="#e6edf3">Claude</text>
+  <text x="830.0" y="188" text-anchor="middle" class="sans" font-size="12" fill="#8b949e">first agent</text>
+  <g class="pkt">
+    <rect x="-17" y="-9" width="34" height="18" rx="9" fill="#e6edf3"/>
+    <rect x="-11" y="-4" width="8" height="6" rx="1.5" fill="#0d1117"/><rect x="3" y="-4" width="8" height="6" rx="1.5" fill="#0d1117"/>
+    <animateMotion dur="12.5s" repeatCount="indefinite" calcMode="linear" keyPoints="0.0000;0.0000;0.1429;0.1429;0.2857;0.2857;0.4286;0.4286;0.5714;0.5714;0.7143;0.7143;0.8571;0.8571;1.0000;1.0000;1.0000" keyTimes="0.0000;0.0560;0.1280;0.1840;0.2560;0.3120;0.3840;0.4400;0.5120;0.5680;0.6400;0.6960;0.7680;0.8240;0.8960;0.9520;1.0000"><mpath href="#track"/></animateMotion>
+  </g>
+</svg>

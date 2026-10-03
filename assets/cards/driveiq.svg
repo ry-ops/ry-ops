@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 180" width="430" height="180" role="img" aria-labelledby="t d">
+  <title id="t">DriveIQ</title>
+  <desc id="d">Vehicle maintenance tracking with service reminders, CARFAX import and RAG over your owner&#x27;s manual.</desc>
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .needle{animation:sweep 5s ease-in-out infinite}@keyframes sweep{0%,100%{transform:rotate(-80deg)}50%{transform:rotate(55deg)}}.arc{stroke-dashoffset:163;animation:fill 5s ease-in-out infinite}@keyframes fill{0%,100%{stroke-dashoffset:163}50%{stroke-dashoffset:25}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+  </style>
+  <rect x="1" y="1" width="428" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <clipPath id="clip"><rect x="1" y="1" width="428" height="178" rx="14"/></clipPath>
+  <rect x="0" y="0" width="6" height="180" fill="#79c0ff" clip-path="url(#clip)"/>
+  <text x="26" y="44" class="sans" font-size="20" font-weight="700" fill="#e6edf3">DriveIQ</text>
+  <text x="26" y="82" class="sans" font-size="13.5" fill="#8b949e">Vehicle maintenance tracking with</text>
+  <text x="26" y="102" class="sans" font-size="13.5" fill="#8b949e">service reminders, CARFAX import and</text>
+  <text x="26" y="122" class="sans" font-size="13.5" fill="#8b949e">RAG over your owner&#x27;s manual.</text>
+  <circle cx="31" cy="156" r="5" fill="#3572A5"/>
+  <text x="42" y="160" font-size="12.5"><tspan class="sans" fill="#c9d1d9">Python</tspan><tspan class="mono" dx="12" font-size="11.5" fill="#79c0ff">FastAPI · RAG</tspan></text>
+  
+  <g transform="translate(356 108)">
+    <path d="M-52 0A52 52 0 0 1 52 0" fill="none" stroke="#30363d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-52 0A52 52 0 0 1 52 0" fill="none" stroke="#79c0ff" stroke-width="10" stroke-linecap="round" stroke-dasharray="163" class="arc"/>
+    <g class="needle"><path d="M0 0L-3-2 0-44 3-2Z" fill="#e6edf3"/></g>
+    <circle r="6" fill="#e6edf3"/>
+    <text y="30" text-anchor="middle" class="mono" font-size="12" fill="#8b949e">service due</text>
+  </g>
+</svg>

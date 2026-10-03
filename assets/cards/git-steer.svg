@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 180" width="430" height="180" role="img" aria-labelledby="t d">
+  <title id="t">git-steer</title>
+  <desc id="d">Self-hosting GitHub autonomy engine: repos, branches, security and Actions through MCP, rate-limit hardened.</desc>
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .draw{stroke-dasharray:120;stroke-dashoffset:120;animation:draw 4s ease-in-out infinite}@keyframes draw{0%{stroke-dashoffset:120}50%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}.pop{opacity:0;animation:pop 4s infinite}.p1{animation-delay:.6s}.p2{animation-delay:1.6s}@keyframes pop{0%{opacity:0}10%,70%{opacity:1}85%,100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+  </style>
+  <rect x="1" y="1" width="428" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <clipPath id="clip"><rect x="1" y="1" width="428" height="178" rx="14"/></clipPath>
+  <rect x="0" y="0" width="6" height="180" fill="#a371f7" clip-path="url(#clip)"/>
+  <text x="26" y="44" class="sans" font-size="20" font-weight="700" fill="#e6edf3">git-steer</text>
+  <text x="26" y="82" class="sans" font-size="13.5" fill="#8b949e">Self-hosting GitHub autonomy engine:</text>
+  <text x="26" y="102" class="sans" font-size="13.5" fill="#8b949e">repos, branches, security and Actions</text>
+  <text x="26" y="122" class="sans" font-size="13.5" fill="#8b949e">through MCP, rate-limit hardened.</text>
+  <circle cx="31" cy="156" r="5" fill="#3178c6"/>
+  <text x="42" y="160" font-size="12.5"><tspan class="sans" fill="#c9d1d9">TypeScript</tspan><tspan class="mono" dx="12" font-size="11.5" fill="#a371f7">MCP · GitHub</tspan></text>
+  
+  <g transform="translate(316 26)" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M20 4V124" stroke="#30363d"/>
+    <path class="draw" d="M20 40C20 58 72 52 72 70S20 82 20 100" stroke="#a371f7"/>
+    <circle cx="20" cy="12" r="6" fill="#0d1117" stroke="#8b949e"/>
+    <circle cx="20" cy="40" r="6" fill="#0d1117" stroke="#8b949e"/>
+    <circle class="pop p1" cx="72" cy="70" r="6" fill="#0d1117" stroke="#a371f7"/>
+    <circle class="pop p2" cx="20" cy="100" r="7" fill="#a371f7" stroke="#a371f7"/>
+    <circle cx="20" cy="124" r="6" fill="#0d1117" stroke="#8b949e"/>
+  </g>
+</svg>

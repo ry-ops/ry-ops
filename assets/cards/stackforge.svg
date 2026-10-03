@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 180" width="430" height="180" role="img" aria-labelledby="t d">
+  <title id="t">stackforge</title>
+  <desc id="d">Guided homelab bootstrapper: k3s on bare metal or k3d on Docker Desktop, with Grafana and Prometheus ready.</desc>
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .layer{animation:drop 6s ease-out infinite}.s3{animation-delay:.4s}.s4{animation-delay:.8s}@keyframes drop{0%{transform:translateY(-30px);opacity:0}12%,80%{transform:none;opacity:1}92%,100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+  </style>
+  <rect x="1" y="1" width="428" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <clipPath id="clip"><rect x="1" y="1" width="428" height="178" rx="14"/></clipPath>
+  <rect x="0" y="0" width="6" height="180" fill="#2dd4bf" clip-path="url(#clip)"/>
+  <text x="26" y="44" class="sans" font-size="20" font-weight="700" fill="#e6edf3">stackforge</text>
+  <text x="26" y="82" class="sans" font-size="13.5" fill="#8b949e">Guided homelab bootstrapper: k3s on</text>
+  <text x="26" y="102" class="sans" font-size="13.5" fill="#8b949e">bare metal or k3d on Docker Desktop,</text>
+  <text x="26" y="122" class="sans" font-size="13.5" fill="#8b949e">with Grafana and Prometheus ready.</text>
+  <circle cx="31" cy="156" r="5" fill="#e34c26"/>
+  <text x="42" y="160" font-size="12.5"><tspan class="sans" fill="#c9d1d9">HTML</tspan><tspan class="mono" dx="12" font-size="11.5" fill="#2dd4bf">homelab · k3s</tspan></text>
+  
+  <g transform="translate(306 30)">
+    <g class="layer s4"><rect y="0" width="100" height="24" rx="5" fill="#161b22" stroke="#2dd4bf"/><text x="50" y="16" text-anchor="middle" class="mono" font-size="10" fill="#2dd4bf">grafana</text></g>
+    <g class="layer s3"><rect y="32" width="100" height="24" rx="5" fill="#161b22" stroke="#2dd4bf"/><text x="50" y="48" text-anchor="middle" class="mono" font-size="10" fill="#2dd4bf">prometheus</text></g>
+    <g class="layer s2"><rect y="64" width="100" height="24" rx="5" fill="#161b22" stroke="#2dd4bf"/><text x="50" y="80" text-anchor="middle" class="mono" font-size="10" fill="#2dd4bf">k3s / k3d</text></g>
+    <g><rect y="96" width="100" height="24" rx="5" fill="#2dd4bf" fill-opacity=".15" stroke="#2dd4bf"/><text x="50" y="112" text-anchor="middle" class="mono" font-size="10" fill="#2dd4bf">bare metal</text></g>
+  </g>
+</svg>

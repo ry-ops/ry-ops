@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 458" width="900" height="458" role="img" aria-labelledby="t d">
+  <title id="t">claude mcp list</title>
+  <desc id="d">A terminal listing the 11 MCP servers built by ry-ops: proxmox, unifi, k3s, cloudflare, starlink, microsoft-graph, eagle-scout, qdrant-fabric, n8n-fabric, aiana, git-steer.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:14px;fill:#c9d1d9}
+    .title{font-size:12px;fill:#8b949e}
+    .cur{fill:#2dd4bf;animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes k0{0%,1.25%{opacity:0}1.75%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l0{animation:k0 16.0s linear infinite}@keyframes k1{0%,7.50%{opacity:0}8.00%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l1{animation:k1 16.0s linear infinite}@keyframes k3{0%,11.88%{opacity:0}12.38%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l3{animation:k3 16.0s linear infinite}@keyframes k4{0%,13.87%{opacity:0}14.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l4{animation:k4 16.0s linear infinite}@keyframes k5{0%,15.87%{opacity:0}16.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l5{animation:k5 16.0s linear infinite}@keyframes k6{0%,17.87%{opacity:0}18.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l6{animation:k6 16.0s linear infinite}@keyframes k7{0%,19.87%{opacity:0}20.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l7{animation:k7 16.0s linear infinite}@keyframes k8{0%,21.87%{opacity:0}22.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l8{animation:k8 16.0s linear infinite}@keyframes k9{0%,23.87%{opacity:0}24.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l9{animation:k9 16.0s linear infinite}@keyframes k10{0%,25.87%{opacity:0}26.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l10{animation:k10 16.0s linear infinite}@keyframes k11{0%,27.87%{opacity:0}28.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l11{animation:k11 16.0s linear infinite}@keyframes k12{0%,29.87%{opacity:0}30.37%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l12{animation:k12 16.0s linear infinite}@keyframes k13{0%,31.87%{opacity:0}32.38%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l13{animation:k13 16.0s linear infinite}@keyframes k15{0%,36.38%{opacity:0}36.88%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l15{animation:k15 16.0s linear infinite}@keyframes k16{0%,40.12%{opacity:0}40.62%,90.00%{opacity:1}93.12%,100%{opacity:0}}.l16{animation:k16 16.0s linear infinite}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+  </style>
+  <rect x="1" y="1" width="898" height="456" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <path d="M1 15A14 14 0 0 1 15 1H885A14 14 0 0 1 899 15V40H1Z" fill="#161b22"/>
+  <line x1="1" y1="40" x2="899" y2="40" stroke="#30363d"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f57"/><circle cx="44" cy="21" r="6" fill="#febc2e"/><circle cx="64" cy="21" r="6" fill="#28c840"/>
+  <text x="450" y="25" text-anchor="middle" class="title">ry-ops@homelab — zsh — claude mcp list</text>
+  <text class="l0" x="32" y="76"><tspan fill="#3fb950">$</tspan> claude mcp list</text>
+  <text class="l1" x="32" y="98" style="fill:#8b949e">Checking MCP server health…</text>
+  <text class="l3" x="32" y="142"><tspan fill="#e6edf3">proxmox</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">Proxmox VE · 338 tools · VMs, LXC, Ceph, SDN</tspan></text>
+  <text class="l4" x="32" y="164"><tspan fill="#e6edf3">unifi</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">UniFi · devices, clients, firewall, WLANs</tspan></text>
+  <text class="l5" x="32" y="186"><tspan fill="#e6edf3">k3s</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">K3s · kubectl operations for Claude</tspan></text>
+  <text class="l6" x="32" y="208"><tspan fill="#e6edf3">cloudflare</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">Cloudflare · DNS, Workers, zones</tspan></text>
+  <text class="l7" x="32" y="230"><tspan fill="#e6edf3">starlink</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">Starlink Enterprise · terminal fleet</tspan></text>
+  <text class="l8" x="32" y="252"><tspan fill="#e6edf3">microsoft-graph</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">Microsoft 365 · users, licenses, groups</tspan></text>
+  <text class="l9" x="32" y="274"><tspan fill="#e6edf3">eagle-scout</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">Docker Scout · CVE + SBOM scanning</tspan></text>
+  <text class="l10" x="32" y="296"><tspan fill="#e6edf3">qdrant-fabric</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">Qdrant · semantic search for RAG</tspan></text>
+  <text class="l11" x="32" y="318"><tspan fill="#e6edf3">n8n-fabric</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">n8n · workflows with vector memory</tspan></text>
+  <text class="l12" x="32" y="340"><tspan fill="#e6edf3">aiana</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">Claude Code · conversation memory</tspan></text>
+  <text class="l13" x="32" y="362"><tspan fill="#e6edf3">git-steer</tspan><tspan x="210" fill="#3fb950">✓ connected</tspan><tspan x="350" fill="#8b949e">GitHub · autonomous repo management</tspan></text>
+  <text class="l15" x="32" y="406" style="fill:#2dd4bf">11 servers · all connected</text>
+  <text class="l16" x="32" y="428"><tspan fill="#3fb950">$</tspan> <tspan class="cur">▋</tspan></text>
+</svg>

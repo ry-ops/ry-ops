@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="900" height="90" role="img" aria-labelledby="t">
+  <title id="t">ry-ops.dev — built with too much coffee</title>
+  <defs>
+    <path id="w" d="M0 45C75 15 150 75 225 45S375 15 450 45 600 75 675 45 825 15 900 45"/>
+  </defs>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .pipe{fill:none;stroke:#21262d;stroke-width:6;stroke-linecap:round}
+    .flow{fill:none;stroke:#2dd4bf;stroke-width:2;stroke-dasharray:3 11;stroke-linecap:round;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-14}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+  </style>
+  <use href="#w" class="pipe"/>
+  <use href="#w" class="flow"/>
+  <g class="pkt">
+    <circle r="4" fill="#2dd4bf"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#w"/></animateMotion></circle>
+    <circle r="4" fill="#58a6ff"><animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite"><mpath href="#w"/></animateMotion></circle>
+  </g>
+  <rect x="255" y="30" width="390" height="30" rx="15" fill="#0d1117" stroke="#30363d"/>
+  <text x="450" y="50" text-anchor="middle" class="mono" font-size="13" fill="#8b949e">ry-ops.dev · <tspan fill="#2dd4bf">built with too much coffee</tspan></text>
+</svg>

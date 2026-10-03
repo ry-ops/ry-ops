@@ -1,233 +1,148 @@
-# 👋 Hey, I'm ry-ops
+<a href="https://ry-ops.dev"><img src="assets/hero.svg" width="100%" alt="ry-ops: building the pipes between infrastructure, automation, and observability"></a>
 
-> Building the pipes between infrastructure, automation, and observability.
+<p align="center">
+  <a href="https://ry-ops.dev"><img src="https://img.shields.io/badge/blog-ry--ops.dev-2dd4bf?style=flat-square&labelColor=0d1117" alt="Blog: ry-ops.dev"></a>
+  <a href="https://github.com/m5stack-lab"><img src="https://img.shields.io/badge/lab-m5stack--lab-3fb950?style=flat-square&labelColor=0d1117" alt="m5stack-lab"></a>
+  <a href="https://patreon.com/ry_ops"><img src="https://img.shields.io/badge/support-patreon-f0883e?style=flat-square&labelColor=0d1117" alt="Support on Patreon"></a>
+</p>
 
-## 🚀 What I Do
+I build the plumbing that lets AI run real infrastructure: **MCP servers** that give Claude hands on Proxmox, UniFi, Kubernetes, Cloudflare and more; **agent frameworks** for security and GitHub ops; and **ESP32 firmware** for the M5Stack gear on my desk. Everything starts in a homelab in Duluth, Minnesota.
 
-I specialize in **network infrastructure automation** and **AI-assisted operations**. My repositories focus on bridging enterprise networking gear with modern monitoring, automation workflows, and AI tooling through MCP (Model Context Protocol) servers.
+<img src="assets/stats.svg" width="100%" alt="At a glance: public repos, stars, MCP servers, and languages">
 
-### 🎯 Core Focus Areas
+## 🔌 The MCP fleet
 
-**Network Infrastructure & Automation**
-- Building solutions for UniFi network ecosystems
-- Starlink Enterprise integration and management
-- Dynamic DNS automation with Cloudflare
-- Real-time event streaming to observability platforms
+Each of these is a Model Context Protocol server: plug it into Claude and the platform becomes something you can just *talk to*.
 
-**MCP Server Development**
-- Creating MCP servers that enable AI assistants to interact with infrastructure
-- Supporting platforms like UniFi, Proxmox, n8n, K3s, Starlink Enterprise, and Microsoft 365
-- Making network operations AI-accessible and conversational
+<img src="assets/mcp-fleet.svg" width="100%" alt="Terminal: claude mcp list showing 11 connected MCP servers">
 
-**Observability & Monitoring**
-- Real-time event streaming from network devices to Grafana
-- Infrastructure metrics collection and alerting
-- CI/CD-friendly monitoring deployments
+## 🛠️ Featured builds
 
----
+<p align="center">
+<a href="https://github.com/ry-ops/proxmox-mcp-server"><img src="assets/cards/proxmox-mcp-server.svg" width="49%" alt="proxmox-mcp-server"></a> <a href="https://github.com/ry-ops/unifi-mcp-server"><img src="assets/cards/unifi-mcp-server.svg" width="49%" alt="unifi-mcp-server"></a>
+<a href="https://github.com/ry-ops/mr-robot"><img src="assets/cards/mr-robot.svg" width="49%" alt="mr-robot"></a> <a href="https://github.com/ry-ops/git-steer"><img src="assets/cards/git-steer.svg" width="49%" alt="git-steer"></a>
+<a href="https://github.com/ry-ops/k3s-mcp-server"><img src="assets/cards/k3s-mcp-server.svg" width="49%" alt="k3s-mcp-server"></a> <a href="https://github.com/ry-ops/aiana"><img src="assets/cards/aiana.svg" width="49%" alt="aiana"></a>
+<a href="https://github.com/ry-ops/stackforge"><img src="assets/cards/stackforge.svg" width="49%" alt="stackforge"></a> <a href="https://github.com/ry-ops/DriveIQ"><img src="assets/cards/driveiq.svg" width="49%" alt="DriveIQ"></a>
+</p>
 
-## 🛠️ Featured Projects
+## 🔬 Hardware lab
 
-<div align="center">
+ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https://github.com/m5stack-lab)**.
 
-### 🌟 Flagship Projects
+<a href="https://github.com/m5stack-lab"><img src="assets/lab.svg" width="100%" alt="A Cardputer screen mirrored live into a browser over WiFi"></a>
 
-<table>
-<tr>
-<td width="33%">
-<h3 align="center">🧠 Aiana</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/aiana">
-<img src="https://img.shields.io/badge/Aiana-AI_Memory-7C3AED?style=for-the-badge&logo=brain&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Personal AI Operations Memory for Claude Code. Captures conversations, embeds as vectors, and injects relevant context. Features memory feedback system for continuous learning.</p>
-<a href="https://ry-ops.dev/posts/2026-02-01-personal-ai-operations-memory">
-<img src="https://img.shields.io/badge/Read_the_Blog_Post-→-7C3AED?style=flat-square" />
-</a>
-</div>
-</td>
-<td width="33%">
-<h3 align="center">🚜 Git-Steer</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/git-steer">
-<img src="https://img.shields.io/badge/Git--Steer-GitHub_Autonomy-0d9488?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<br><br>
-<p><strong>TypeScript</strong> - Self-hosting GitHub autonomy engine. Full control over repos, branches, security, and Actions through natural language via MCP.</p>
-<a href="https://ry-ops.dev/posts/2026-02-01-git-steer">
-<img src="https://img.shields.io/badge/Read_the_Blog_Post-→-00A67E?style=flat-square" />
-</a>
-</div>
-</td>
-<td width="33%">
-<h3 align="center">🚗 DriveIQ</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/DriveIQ">
-<img src="https://img.shields.io/badge/DriveIQ-Vehicle_Mgmt-007ACC?style=for-the-badge&logo=toyota&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Vehicle management with maintenance tracking, reminders, and AI-powered manual consultation using RAG.</p>
-<img src="https://img.shields.io/github/stars/ry-ops/DriveIQ?style=social" />
-</div>
-</td>
-</tr>
-</table>
+- **[cardputer-adv-mirror](https://github.com/m5stack-lab/cardputer-adv-mirror)**: mirror a Cardputer ADV display in any browser over WiFi
+- **[tab5-mirror](https://github.com/m5stack-lab/tab5-mirror)**: the same for the Tab5, plus remote control
+- **[Liner](https://github.com/m5stack-lab/Liner)**: now-playing e-paper display for Volumio
+- **[doomagotchi](https://github.com/m5stack-lab/doomagotchi)**: self-playing DOOM where live RF becomes demons
 
-### 🔌 MCP Servers
+## 🏢 Organizations
 
-<table>
-<tr>
-<td width="33%">
-<h3 align="center">🌐 UniFi MCP</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/unifi-mcp-server">
-<img src="https://img.shields.io/badge/UniFi-MCP-0559C9?style=for-the-badge&logo=ubiquiti&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Comprehensive UniFi infrastructure monitoring and management with A2A support.</p>
-</div>
-</td>
-<td width="33%">
-<h3 align="center">🖥️ Proxmox MCP</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/proxmox-mcp-server">
-<img src="https://img.shields.io/badge/Proxmox-MCP-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Manage Proxmox VMs, containers, storage, and cluster resources via AI.</p>
-</div>
-</td>
-<td width="33%">
-<h3 align="center">☸️ K3s MCP</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/k3s-mcp-server">
-<img src="https://img.shields.io/badge/K3s-MCP-FFC61C?style=for-the-badge&logo=kubernetes&logoColor=black" />
-</a>
-<br><br>
-<p><strong>Python</strong> - K3s cluster management with kubectl operations for Claude.</p>
-</div>
-</td>
-</tr>
-<tr>
-<td width="33%">
-<h3 align="center">☁️ Cloudflare MCP</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/cloudflare-mcp-server">
-<img src="https://img.shields.io/badge/Cloudflare-MCP-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Manage DNS, workers, and infrastructure through natural language.</p>
-</div>
-</td>
-<td width="33%">
-<h3 align="center">🛰️ Starlink MCP</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/starlink-enterprise-mcp-server">
-<img src="https://img.shields.io/badge/Starlink-MCP-000000?style=for-the-badge&logo=spacex&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Manage Starlink Enterprise terminal fleet via AI.</p>
-</div>
-</td>
-<td width="33%">
-<h3 align="center">Ⓜ️ Microsoft 365 MCP</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/microsoft-graph-mcp-server">
-<img src="https://img.shields.io/badge/Microsoft_365-MCP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
-</a>
-<br><br>
-<p><strong>Python</strong> - Manage M365 users, licenses, and groups via Graph API.</p>
-</div>
-</td>
-</tr>
-</table>
+<img src="assets/orgs.svg" width="100%" alt="ry-ops linked to the m5stack-lab, git-fabric and cortex-io organizations">
 
-### 📚 Tutorials & Guides
+<p align="center">
+<a href="https://github.com/m5stack-lab"><b>m5stack-lab</b></a> · hardware &amp; firmware &nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://github.com/git-fabric"><b>git-fabric</b></a> · composable fabric apps &nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://github.com/cortex-io"><b>cortex-io</b></a> · the archive
+</p>
 
-<table>
-<tr>
-<td width="50%">
-<h3 align="center">🤖 Building Your First Claude Agent</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/building-your-first-claude-agent">
-<img src="https://img.shields.io/badge/Tutorial-Claude_Agents-00A67E?style=for-the-badge" />
-</a>
-<p>Learn to build intelligent agents with Claude that automate your workflow.</p>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">🔌 Creating Your First MCP Server</h3>
-<div align="center">
-<a href="https://github.com/ry-ops/creating-your-first-mcp-server">
-<img src="https://img.shields.io/badge/Tutorial-MCP_Servers-00A67E?style=for-the-badge" />
-</a>
-<p>Extend Claude with custom tools by building Model Context Protocol servers.</p>
-</div>
-</td>
-</tr>
-</table>
+## 🎓 Learn with me
 
-</div>
+Eight hands-on tutorials, from your first container to your first Claude agent.
 
----
+<img src="assets/learn.svg" width="100%" alt="Metro map of eight tutorials">
 
-## 💡 Why These Projects?
+| | | | |
+|---|---|---|---|
+| **1** [Docker containers](https://github.com/ry-ops/getting-started-docker-containers) | **2** [REST APIs with FastAPI](https://github.com/ry-ops/building-rest-api-fastapi) | **3** [CI/CD with GitHub Actions](https://github.com/ry-ops/setting-up-cicd-github-actions) | **4** [Kubernetes with K3s](https://github.com/ry-ops/deploying-your-first-kubernetes-cluster) |
+| **5** [Prometheus + Grafana](https://github.com/ry-ops/monitoring-infrastructure-prometheus-grafana) | **6** [Serverless with Astro + Cloudflare](https://github.com/ry-ops/building-serverless-website-github-cloudflare) | **7** [Your first MCP server](https://github.com/ry-ops/creating-your-first-mcp-server) | **8** [Your first Claude agent](https://github.com/ry-ops/building-your-first-claude-agent) |
 
-Modern infrastructure deserves modern tooling. My projects aim to:
+## ✍️ Latest from the blog
 
-- **Automate the boring stuff** → DDNS updates, event forwarding, metrics collection
-- **Bridge AI and Ops** → Make infrastructure queryable and manageable through conversation
-- **Embrace GitOps** → Version-controlled configs, repeatable deployments, CI/CD integration
-- **Open source everything** → Community-driven improvements and shared knowledge
+<!-- BLOG:START -->
+- [RAG vs Fine-Tuning: A Decision Framework for Production](https://ry-ops.dev/posts/2026-08-07-rag-vs-fine-tuning-decision-framework-production/) <sub>· Aug 7, 2026</sub>
+- [7 SSH Settings Your Server Has Wrong Right Now](https://ry-ops.dev/posts/2026-08-04-7-ssh-settings-your-server-has-wrong-right-now/) <sub>· Aug 4, 2026</sub>
+- [AI Code Generators: The Translation Engine Engineers Need to Understand](https://ry-ops.dev/posts/2026-08-02-ai-code-generators-translation-engine-engineers/) <sub>· Aug 2, 2026</sub>
+- [Kubernetes vs Nomad: Stop Using K8s by Default](https://ry-ops.dev/posts/2026-07-29-kubernetes-vs-nomad-stop-using-k8s-by-default/) <sub>· Jul 29, 2026</sub>
+- [Stop Stuffing Your LLM Context: The Lost in the Middle Problem](https://ry-ops.dev/posts/2026-07-18-lost-in-the-middle-llm-context-problem/) <sub>· Jul 18, 2026</sub>
+<!-- BLOG:END -->
 
----
+More at **[ry-ops.dev](https://ry-ops.dev)**.
 
-## 🔧 Tech Stack
+## 🗂️ Everything else
 
-```yaml
-Languages:       Python, TypeScript, JavaScript, Go
-Infrastructure:  UniFi, Proxmox, Cloudflare, Starlink, Talos Linux, K3s
-Platforms:       Kubernetes, Docker, GitHub Actions
-Observability:   Grafana, Prometheus, Netdata, CheckMK
-Automation:      n8n, MCP Servers, GitHub Actions
-AI/ML:           Claude AI, MCP Protocol, Qdrant, Sentence Transformers
-Web:             Astro, Cloudflare Pages
-```
+<details>
+<summary><b>Every public repo, grouped</b> (refreshed weekly)</summary>
 
----
+<!-- INVENTORY:START -->
+**🔌 MCP servers**
 
-## 📊 DevOps Philosophy
+| Repo | What it is | ★ |
+|---|---|--:|
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 19 |
+| [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | Model Context Protocol server for comprehensive UniFi infrastructure monitoring and management with A2A support <sub>(fork)</sub> | 14 |
+| [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | Model Context Protocol server for K3s cluster management - kubectl operations for Claude | 5 |
+| [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
+| [cloudflare-mcp-server](https://github.com/ry-ops/cloudflare-mcp-server) | Cloudflare MCP Server | 2 |
+| [microsoft-graph-mcp-server](https://github.com/ry-ops/microsoft-graph-mcp-server) | MCP server integrating Microsoft Graph API for managing Microsoft 365 users, licenses, and groups | 2 |
+| [qdrant-fabric](https://github.com/ry-ops/qdrant-fabric) | Model Context Protocol server for Qdrant - Part of Infrastructure as a Fabric ecosystem. Provides 30+ tools for vector database operations, semantic search, and AI memory management. | 2 |
+| [aiana](https://github.com/ry-ops/aiana) | AI conversation attendant for Claude Code - monitors and records conversations in real-time via Claude Code API | 1 |
+| [eagle-scout](https://github.com/ry-ops/eagle-scout) | MCP server for Docker Scout - container security scanning | 1 |
+| [git-steer](https://github.com/ry-ops/git-steer) | Self-hosting GitHub autonomy engine. Rate-limit-hardened MCP server for autonomous repo management, security sweeps, RFC tracking, and CI orchestration. Zero local footprint — steering wheel on your Mac, engine on GitHub. 🚜 | 1 |
+| [n8n-fabric](https://github.com/ry-ops/n8n-fabric) | Workflow automation fabric layer - n8n MCP server with Qdrant vectors and Redis caching | 1 |
 
-I believe in:
-- **Infrastructure as Code** → Everything version-controlled
-- **Observability First** → If you can't measure it, you can't improve it
-- **Automation Over Manual** → Humans are expensive and error-prone
-- **AI-Augmented Ops** → Let AI help with routine tasks and troubleshooting
+**🔬 Hardware · m5stack-lab**
 
----
+| Repo | What it is | ★ |
+|---|---|--:|
+| [m5stack-lab/cardputer-adv-mirror](https://github.com/m5stack-lab/cardputer-adv-mirror) | Mirror an M5Stack Cardputer ADV display in a web browser over WiFi (ESP32-S3, GRAM readback via SPI, WebSocket streaming) | 2 |
+| [m5stack-lab/Liner](https://github.com/m5stack-lab/Liner) | Now-playing display for Volumio on the M5Stack PaperColor e-paper board | 1 |
+| [m5stack-lab/doomagotchi](https://github.com/m5stack-lab/doomagotchi) | Self-playing DOOM on an M5Stack Tab5 that turns live 2.4 GHz RF into demons | 0 |
+| [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 0 |
 
-## 📚 Latest from the Blog
+**🎓 Tutorials**
 
-Check out [ry-ops.dev](https://ry-ops.dev) for tutorials, project deep-dives, and infrastructure guides:
+| Repo | What it is | ★ |
+|---|---|--:|
+| [building-rest-api-fastapi](https://github.com/ry-ops/building-rest-api-fastapi) | Build blazing-fast REST APIs with FastAPI, automatic docs, and type safety | 1 |
+| [building-serverless-website-github-cloudflare](https://github.com/ry-ops/building-serverless-website-github-cloudflare) | Build lightning-fast serverless websites with Astro, GitHub, and Cloudflare Pages | 1 |
+| [building-your-first-claude-agent](https://github.com/ry-ops/building-your-first-claude-agent) | Learn to build intelligent agents with Claude that automate your workflow | 1 |
+| [creating-your-first-mcp-server](https://github.com/ry-ops/creating-your-first-mcp-server) | Extend Claude with custom tools by building Model Context Protocol servers | 1 |
+| [deploying-your-first-kubernetes-cluster](https://github.com/ry-ops/deploying-your-first-kubernetes-cluster) | Deploy production-ready Kubernetes clusters with K3s | 1 |
+| [getting-started-docker-containers](https://github.com/ry-ops/getting-started-docker-containers) | Package applications into portable containers with Docker | 1 |
+| [monitoring-infrastructure-prometheus-grafana](https://github.com/ry-ops/monitoring-infrastructure-prometheus-grafana) | Monitor infrastructure with Prometheus metrics and Grafana dashboards | 1 |
+| [setting-up-cicd-github-actions](https://github.com/ry-ops/setting-up-cicd-github-actions) | Automate testing and deployment with GitHub Actions CI/CD pipelines | 0 |
 
-- [Personal AI Operations Memory with Aiana](https://ry-ops.dev/posts/2026-02-01-personal-ai-operations-memory)
-- [Git-Steer: A Self-Hosting GitHub Autonomy Engine](https://ry-ops.dev/posts/2026-02-01-git-steer)
-- [Building Your First MCP Server](https://ry-ops.dev/posts/creating-your-first-mcp-server)
-- [Deploying Your First Kubernetes Cluster](https://ry-ops.dev/posts/deploying-your-first-kubernetes-cluster)
+**🧪 Tools & experiments**
 
----
+| Repo | What it is | ★ |
+|---|---|--:|
+| [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
+| [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 2 |
+| [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
+| [ATSFlow](https://github.com/ry-ops/ATSFlow) | AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility | 1 |
+| [bloatkill](https://github.com/ry-ops/bloatkill) | Windows storage cleanup reference: a zero-dependency audit dashboard | 1 |
+| [capture-cadence](https://github.com/ry-ops/capture-cadence) | Scheduled full-page website screenshot automation. Puppeteer + Express.js with web UI, custom intervals, WebP output, and Docker support. [Archived] | 1 |
+| [DriveIQ](https://github.com/ry-ops/DriveIQ) | Intelligent vehicle management app — maintenance tracking, service reminders, CARFAX integration, and AI-powered manual consultation for any vehicle. | 1 |
+| [eagle-scout-extension](https://github.com/ry-ops/eagle-scout-extension) | Docker Desktop extension for Docker Scout security scanning | 1 |
+| [stackforge](https://github.com/ry-ops/stackforge) | A guided homelab infrastructure bootstrapper. k3s on bare-metal, k3d on Docker Desktop. One script, choose your adventure. | 1 |
+| [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 1 |
+| [azure-help](https://github.com/ry-ops/azure-help) | Notes and playbooks for the non-obvious corners of the Azure portal | 0 |
+| [rawk-on](https://github.com/ry-ops/rawk-on) | Add songs from The Current's on-air playlist to a daily TIDAL or Spotify playlist — a Chrome (MV3) extension. | 0 |
 
-## 🤝 Support & Contributions
+**🗄️ Archive · cortex-io**
 
-If you find these projects useful, consider:
-- ⭐ Starring the repositories
-- 🐛 Opening issues for bugs or feature requests
-- 🔀 Submitting pull requests
-- ☕ Supporting via [Patreon](https://patreon.com/ry_ops)
+| Repo | What it is | ★ |
+|---|---|--:|
+| [cortex-io/cortex](https://github.com/cortex-io/cortex) | Archived — AI-powered autonomous DevOps platform with multi-agent orchestration, neural routing, and self-healing infrastructure. | 1 |
+| [cortex-io/cortex-platform](https://github.com/cortex-io/cortex-platform) | Archived — Cortex platform monorepo: microservices, MCP servers, shared libraries, and agent coordination. | 1 |
+| [cortex-io/cortex-construction-hq](https://github.com/cortex-io/cortex-construction-hq) | Archived — Cortex Holdings project management: roadmap, phase tracking, build session logs. | 0 |
+| [cortex-io/cortex-docs](https://github.com/cortex-io/cortex-docs) | Archived — Cortex knowledge base: Obsidian vault with architecture decisions, runbooks, and component docs. | 0 |
+| [cortex-io/cortex-gitops](https://github.com/cortex-io/cortex-gitops) | Archived — GitOps manifests for Cortex K3s deployments. ArgoCD-managed, self-healing Kubernetes infrastructure. | 0 |
+| [cortex-io/cortex-k3s](https://github.com/cortex-io/cortex-k3s) | Archived — K3s cluster documentation: Wazuh security, KEDA autoscaling, and monitoring stack. | 0 |
+| [cortex-io/infrastructure-docs](https://github.com/cortex-io/infrastructure-docs) | Archived — Homelab infrastructure documentation: Proxmox, K3s, networking, and service configs. | 0 |
+<!-- INVENTORY:END -->
 
----
+</details>
 
-<div align="center">
-  <sub>Built with ❤️ and way too much coffee</sub>
-</div>
+<a href="https://ry-ops.dev"><img src="assets/footer.svg" width="100%" alt="ry-ops.dev, built with too much coffee"></a>

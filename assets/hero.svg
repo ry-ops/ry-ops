@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d">
+  <title id="t">ry-ops</title>
+  <desc id="d">Building the pipes between infrastructure, automation, and observability. Packets flow from Proxmox, UniFi, K3s, Cloudflare and ESP32 through MCP into Claude.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="78%" cy="50%" r="45%">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" x2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <path id="p1" d="M606 62H634C664 62 640 150 670 150"/>
+    <path id="p2" d="M606 106H634C660 106 646 150 670 150"/>
+    <path id="p3" d="M606 150H670"/>
+    <path id="p4" d="M606 194H634C660 194 646 150 670 150"/>
+    <path id="p5" d="M606 238H634C664 238 640 150 670 150"/>
+    <path id="p6" d="M738 150H786"/>
+    <clipPath id="frame"><rect x="1" y="1" width="898" height="298" rx="16"/></clipPath>
+    <clipPath id="c1"><rect x="62" y="244" height="26" width="0"><animate attributeName="width" values="0;380;380;0;0" keyTimes="0;.1;.3;.333;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="62" y="244" height="26" width="0"><animate attributeName="width" values="0;380;380;0;0" keyTimes="0;.1;.3;.333;1" dur="12s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="62" y="244" height="26" width="0"><animate attributeName="width" values="0;380;380;0;0" keyTimes="0;.1;.3;.333;1" dur="12s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+    <style>
+      .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+      .pipe{fill:none;stroke:#21262d;stroke-width:6;stroke-linecap:round}
+      .flow{fill:none;stroke-width:2;stroke-linecap:round;stroke-dasharray:3 11;animation:flow 1.2s linear infinite;opacity:.9}
+      @keyframes flow{to{stroke-dashoffset:-14}}
+      .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+      @keyframes ring{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.9);opacity:0}}
+      .blink{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .chip text{font-size:12px}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="300" fill="#0d1117"/>
+    <rect width="900" height="300" fill="url(#grid)"/>
+    <rect width="900" height="300" fill="url(#glow)"/>
+  </g>
+  <rect x="1" y="1" width="898" height="298" rx="16" fill="none" stroke="#30363d"/>
+
+  <!-- identity -->
+  <text x="40" y="62" class="mono" font-size="14" fill="#8b949e">~/ry-ops <tspan fill="#2dd4bf">$</tspan> whoami</text>
+  <text x="38" y="132" class="sans" font-size="68" font-weight="700" fill="url(#title)" letter-spacing="-1">ry-ops</text>
+  <text x="40" y="172" class="sans" font-size="18" fill="#e6edf3">Building the pipes between infrastructure,</text>
+  <text x="40" y="196" class="sans" font-size="18" fill="#e6edf3">automation, and observability.</text>
+  <text x="40" y="228" class="mono" font-size="13" fill="#8b949e">Duluth, MN · homelab · MCP · ESP32 firmware</text>
+
+  <!-- rotating "now" line -->
+  <text x="40" y="262" class="mono" font-size="15" fill="#2dd4bf">&gt;</text>
+  <g class="mono" font-size="15" fill="#c9d1d9">
+    <text x="62" y="262" clip-path="url(#c1)">shipping MCP servers so Claude runs infra</text>
+    <text x="62" y="262" clip-path="url(#c2)">flashing ESP32 firmware onto M5Stack gear</text>
+    <text x="62" y="262" clip-path="url(#c3)">wiring observability across the homelab</text>
+  </g>
+  <rect class="blink" x="62" y="249" width="9" height="17" fill="#2dd4bf">
+    <animate attributeName="x" values="62;431;431;62;431;431;62;413;413;62" keyTimes="0;.097;.3;.333;.43;.633;.666;.758;.966;1" dur="12s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- pipes: sources -> MCP -> Claude -->
+  <g>
+
+    <use href="#p1" class="pipe"/>
+    <use href="#p2" class="pipe"/>
+    <use href="#p3" class="pipe"/>
+    <use href="#p4" class="pipe"/>
+    <use href="#p5" class="pipe"/>
+    <use href="#p6" class="pipe"/>
+
+    <use href="#p1" class="flow" stroke="#f0883e"/>
+    <use href="#p2" class="flow" stroke="#58a6ff"/>
+    <use href="#p3" class="flow" stroke="#e3b341"/>
+    <use href="#p4" class="flow" stroke="#a371f7"/>
+    <use href="#p5" class="flow" stroke="#3fb950"/>
+    <use href="#p6" class="flow" stroke="#2dd4bf"/>
+
+    <g class="pkt">
+      <circle r="4" fill="#f0883e"><animateMotion dur="2.2s" repeatCount="indefinite" begin="0s"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="4" fill="#58a6ff"><animateMotion dur="2.0s" repeatCount="indefinite" begin="-.5s"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="4" fill="#e3b341"><animateMotion dur="1.6s" repeatCount="indefinite" begin="-.9s"><mpath href="#p3"/></animateMotion></circle>
+      <circle r="4" fill="#a371f7"><animateMotion dur="2.0s" repeatCount="indefinite" begin="-1.3s"><mpath href="#p4"/></animateMotion></circle>
+      <circle r="4" fill="#3fb950"><animateMotion dur="2.2s" repeatCount="indefinite" begin="-1.7s"><mpath href="#p5"/></animateMotion></circle>
+      <circle r="4" fill="#2dd4bf"><animateMotion dur=".9s" repeatCount="indefinite"><mpath href="#p6"/></animateMotion></circle>
+    </g>
+  </g>
+
+  <!-- source chips -->
+  <g class="chip mono">
+    <rect x="520" y="49" width="86" height="26" rx="13" fill="#161b22" stroke="#f0883e"/>
+    <text x="563" y="66" text-anchor="middle" fill="#e6edf3">proxmox</text>
+    <rect x="520" y="93" width="86" height="26" rx="13" fill="#161b22" stroke="#58a6ff"/>
+    <text x="563" y="110" text-anchor="middle" fill="#e6edf3">unifi</text>
+    <rect x="520" y="137" width="86" height="26" rx="13" fill="#161b22" stroke="#e3b341"/>
+    <text x="563" y="154" text-anchor="middle" fill="#e6edf3">k3s</text>
+    <rect x="520" y="181" width="86" height="26" rx="13" fill="#161b22" stroke="#a371f7"/>
+    <text x="563" y="198" text-anchor="middle" fill="#e6edf3">cloudflare</text>
+    <rect x="520" y="225" width="86" height="26" rx="13" fill="#161b22" stroke="#3fb950"/>
+    <text x="563" y="242" text-anchor="middle" fill="#e6edf3">esp32</text>
+  </g>
+
+  <!-- MCP hub -->
+  <circle class="ring" cx="704" cy="150" r="34" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+  <circle cx="704" cy="150" r="34" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="704" y="156" text-anchor="middle" class="mono" font-size="17" font-weight="700" fill="#2dd4bf">MCP</text>
+
+  <!-- Claude -->
+  <rect x="786" y="132" width="88" height="36" rx="18" fill="#161b22" stroke="#d97757" stroke-width="2"/>
+  <text x="830" y="155" text-anchor="middle" class="mono" font-size="14" fill="#e6edf3">claude</text>
+</svg>

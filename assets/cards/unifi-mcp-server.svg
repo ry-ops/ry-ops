@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 180" width="430" height="180" role="img" aria-labelledby="t d">
+  <title id="t">unifi-mcp-server</title>
+  <desc id="d">UniFi monitoring and management for Claude: devices, clients, firewall, WLANs and agent-to-agent (A2A).</desc>
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .wave{opacity:.15;animation:wave 2.4s ease-in-out infinite}.w2{animation-delay:.3s}.w3{animation-delay:.6s}@keyframes wave{0%,100%{opacity:.15}40%{opacity:1}}.pulse{animation:wave 2.4s ease-in-out infinite}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+  </style>
+  <rect x="1" y="1" width="428" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <clipPath id="clip"><rect x="1" y="1" width="428" height="178" rx="14"/></clipPath>
+  <rect x="0" y="0" width="6" height="180" fill="#58a6ff" clip-path="url(#clip)"/>
+  <text x="26" y="44" class="sans" font-size="20" font-weight="700" fill="#e6edf3">unifi-mcp-server</text>
+  <text x="26" y="82" class="sans" font-size="13.5" fill="#8b949e">UniFi monitoring and management</text>
+  <text x="26" y="102" class="sans" font-size="13.5" fill="#8b949e">for Claude: devices, clients, firewall,</text>
+  <text x="26" y="122" class="sans" font-size="13.5" fill="#8b949e">WLANs and agent-to-agent (A2A).</text>
+  <circle cx="31" cy="156" r="5" fill="#3572A5"/>
+  <text x="42" y="160" font-size="12.5"><tspan class="sans" fill="#c9d1d9">Python</tspan><tspan class="mono" dx="12" font-size="11.5" fill="#58a6ff">MCP · UniFi</tspan></text>
+  
+  <g transform="translate(356 112)" fill="none" stroke="#58a6ff" stroke-linecap="round" stroke-width="4">
+    <path class="wave w1" d="M-22 -14A30 30 0 0 1 22 -14"/>
+    <path class="wave w2" d="M-36 -28A50 50 0 0 1 36 -28"/>
+    <path class="wave w3" d="M-50 -42A70 70 0 0 1 50 -42"/>
+  </g>
+  <ellipse cx="356" cy="128" rx="34" ry="11" fill="#161b22" stroke="#30363d"/>
+  <ellipse class="pulse" cx="356" cy="126" rx="10" ry="3.5" fill="#58a6ff"/>
+</svg>

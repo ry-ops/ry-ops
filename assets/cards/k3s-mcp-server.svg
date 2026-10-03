@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 180" width="430" height="180" role="img" aria-labelledby="t d">
+  <title id="t">k3s-mcp-server</title>
+  <desc id="d">kubectl for Claude: run K3s cluster operations through MCP, from pods and deployments to nodes and logs.</desc>
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .spin{transform-origin:0 0;animation:spin 18s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.pod{animation:pod 3s ease-in-out infinite}@keyframes pod{0%,100%{opacity:.35}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+  </style>
+  <rect x="1" y="1" width="428" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <clipPath id="clip"><rect x="1" y="1" width="428" height="178" rx="14"/></clipPath>
+  <rect x="0" y="0" width="6" height="180" fill="#e3b341" clip-path="url(#clip)"/>
+  <text x="26" y="44" class="sans" font-size="20" font-weight="700" fill="#e6edf3">k3s-mcp-server</text>
+  <text x="26" y="82" class="sans" font-size="13.5" fill="#8b949e">kubectl for Claude: run K3s cluster</text>
+  <text x="26" y="102" class="sans" font-size="13.5" fill="#8b949e">operations through MCP, from pods</text>
+  <text x="26" y="122" class="sans" font-size="13.5" fill="#8b949e">and deployments to nodes and logs.</text>
+  <circle cx="31" cy="156" r="5" fill="#3572A5"/>
+  <text x="42" y="160" font-size="12.5"><tspan class="sans" fill="#c9d1d9">Python</tspan><tspan class="mono" dx="12" font-size="11.5" fill="#e3b341">MCP · Kubernetes</tspan></text>
+  
+  <g transform="translate(356 92)">
+    <path class="spin" d="M0-50L43-25V25L0 50-43 25V-25Z" fill="none" stroke="#e3b341" stroke-width="2" stroke-dasharray="8 6"/>
+    <circle r="14" fill="#161b22" stroke="#e3b341" stroke-width="2"/>
+    <text y="5" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#e3b341">k3s</text>
+    <circle class="pod" cx="0.0" cy="-32.0" r="6" fill="#e3b341" style="animation-delay:0.0s"/>
+    <circle class="pod" cx="27.7" cy="-16.0" r="6" fill="#e3b341" style="animation-delay:0.5s"/>
+    <circle class="pod" cx="27.7" cy="16.0" r="6" fill="#e3b341" style="animation-delay:1.0s"/>
+    <circle class="pod" cx="0.0" cy="32.0" r="6" fill="#e3b341" style="animation-delay:1.5s"/>
+    <circle class="pod" cx="-27.7" cy="16.0" r="6" fill="#e3b341" style="animation-delay:2.0s"/>
+    <circle class="pod" cx="-27.7" cy="-16.0" r="6" fill="#e3b341" style="animation-delay:2.5s"/>
+  </g>
+</svg>

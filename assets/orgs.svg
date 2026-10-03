@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" role="img" aria-labelledby="t d">
+  <title id="t">Organizations</title>
+  <desc id="d">ry-ops at the center, linked to three organizations: m5stack-lab (M5Stack hardware and ESP32 firmware), git-fabric (composable fabric apps for Git-native infrastructure) and cortex-io (archived multi-agent AI infrastructure).</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <path id="l1" d="M404 125H284"/>
+    <path id="l2" d="M494 112C560 112 560 76 616 76"/>
+    <path id="l3" d="M494 138C560 138 560 174 616 174"/>
+  </defs>
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .pipe{fill:none;stroke:#21262d;stroke-width:6;stroke-linecap:round}
+    .flow{fill:none;stroke-width:2;stroke-linecap:round;stroke-dasharray:3 11;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-14}}
+    .orbit{transform-origin:450px 125px;animation:spin 14s linear infinite}
+    .orbit2{transform-origin:450px 125px;animation:spin 22s linear infinite reverse}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect x="1" y="1" width="898" height="248" rx="16" fill="#0d1117" stroke="#30363d"/>
+
+  <use href="#l1" class="pipe"/><use href="#l2" class="pipe"/><use href="#l3" class="pipe"/>
+  <use href="#l1" class="flow" stroke="#3fb950"/>
+  <use href="#l2" class="flow" stroke="#a371f7"/>
+  <use href="#l3" class="flow" stroke="#6e7681"/>
+
+  <!-- center -->
+  <g class="orbit"><ellipse cx="450" cy="125" rx="74" ry="74" fill="none" stroke="#21262d" stroke-dasharray="2 8"/><circle cx="524" cy="125" r="4" fill="#2dd4bf"/></g>
+  <g class="orbit2"><ellipse cx="450" cy="125" rx="94" ry="94" fill="none" stroke="#161b22" stroke-dasharray="2 10"/><circle cx="356" cy="125" r="3" fill="#58a6ff"/></g>
+  <circle cx="450" cy="125" r="46" fill="#0d1117" stroke="url(#g)" stroke-width="3"/>
+  <text x="450" y="131" text-anchor="middle" class="sans" font-size="19" font-weight="700" fill="#e6edf3">ry-ops</text>
+
+  <!-- m5stack-lab -->
+  <rect x="40" y="85" width="244" height="80" rx="12" fill="#161b22" stroke="#3fb950"/>
+  <text x="60" y="118" class="sans" font-size="18" font-weight="700" fill="#e6edf3">m5stack-lab</text>
+  <text x="60" y="142" class="sans" font-size="12.5" fill="#8b949e">Hardware · ESP32 firmware</text>
+
+  <!-- git-fabric -->
+  <rect x="616" y="40" width="244" height="72" rx="12" fill="#161b22" stroke="#a371f7"/>
+  <text x="636" y="70" class="sans" font-size="18" font-weight="700" fill="#e6edf3">git-fabric</text>
+  <text x="636" y="93" class="sans" font-size="12.5" fill="#8b949e">Composable Git-native fabric apps</text>
+
+  <!-- cortex-io (archived) -->
+  <rect x="616" y="138" width="244" height="72" rx="12" fill="#161b22" stroke="#484f58" stroke-dasharray="5 4"/>
+  <text x="636" y="168" class="sans" font-size="18" font-weight="700" fill="#8b949e">cortex-io</text>
+  <text x="636" y="191" class="sans" font-size="12.5" fill="#6e7681">Archived · multi-agent AI infra</text>
+</svg>
