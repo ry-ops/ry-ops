@@ -79,7 +79,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 19 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 20 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | Model Context Protocol server for comprehensive UniFi infrastructure monitoring and management with A2A support <sub>(fork)</sub> | 14 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | Model Context Protocol server for K3s cluster management - kubectl operations for Claude | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -111,7 +111,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [deploying-your-first-kubernetes-cluster](https://github.com/ry-ops/deploying-your-first-kubernetes-cluster) | Deploy production-ready Kubernetes clusters with K3s | 1 |
 | [getting-started-docker-containers](https://github.com/ry-ops/getting-started-docker-containers) | Package applications into portable containers with Docker | 1 |
 | [monitoring-infrastructure-prometheus-grafana](https://github.com/ry-ops/monitoring-infrastructure-prometheus-grafana) | Monitor infrastructure with Prometheus metrics and Grafana dashboards | 1 |
-| [setting-up-cicd-github-actions](https://github.com/ry-ops/setting-up-cicd-github-actions) | Automate testing and deployment with GitHub Actions CI/CD pipelines | 0 |
+| [setting-up-cicd-github-actions](https://github.com/ry-ops/setting-up-cicd-github-actions) | Automate testing and deployment with GitHub Actions CI/CD pipelines | 1 |
 
 **🧪 Tools & experiments**
 
@@ -120,15 +120,49 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
 | [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 2 |
 | [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
+| [git-fabric/aiana](https://github.com/git-fabric/aiana) | Aiana memory fabric app — semantic memory, session context, and cross-project recall as a composable MCP layer | 1 |
 | [ATSFlow](https://github.com/ry-ops/ATSFlow) | AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility | 1 |
+| [azure-help](https://github.com/ry-ops/azure-help) | Notes and playbooks for the non-obvious corners of the Azure portal | 1 |
 | [bloatkill](https://github.com/ry-ops/bloatkill) | Windows storage cleanup reference: a zero-dependency audit dashboard | 1 |
 | [capture-cadence](https://github.com/ry-ops/capture-cadence) | Scheduled full-page website screenshot automation. Puppeteer + Express.js with web UI, custom intervals, WebP output, and Docker support. [Archived] | 1 |
+| [git-fabric/chat](https://github.com/git-fabric/chat) | Chat fabric app — AI conversation sessions, semantic history search, and context threading as a composable MCP layer | 1 |
+| [git-fabric/cloudflare](https://github.com/git-fabric/cloudflare) | Cloudflare fabric app — DNS, zones, cache, and KV as a composable MCP layer | 1 |
+| [git-fabric/cve](https://github.com/git-fabric/cve) | CVE detection-to-remediation fabric app. Scan, enrich, triage, and fix vulnerabilities across managed repos. | 1 |
 | [DriveIQ](https://github.com/ry-ops/DriveIQ) | Intelligent vehicle management app — maintenance tracking, service reminders, CARFAX integration, and AI-powered manual consultation for any vehicle. | 1 |
 | [eagle-scout-extension](https://github.com/ry-ops/eagle-scout-extension) | Docker Desktop extension for Docker Scout security scanning | 1 |
+| [git-fabric/fabric-forge](https://github.com/git-fabric/fabric-forge) | Forge the fabric. k3s cluster + Helm charts for the Fabric-SDK runtime. One script, full stack. | 1 |
+| [git-fabric/fabric-state](https://github.com/git-fabric/fabric-state) | CVE queue state and scan history for fabric-ctrl | 1 |
+| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 1 |
+| [git-fabric/gateway](https://github.com/git-fabric/gateway) | Fabric gateway — routes, connects, and orchestrates git-fabric apps. The connective tissue. | 1 |
+| [git-fabric/git](https://github.com/git-fabric/git) | Git operations fabric app — commit, push, branch, PR, and repo management as a composable MCP layer | 1 |
+| [git-fabric/k8s](https://github.com/git-fabric/k8s) | Kubernetes operations fabric app — cluster, pods, deployments, services, and logs as a composable MCP layer | 1 |
+| [git-fabric/pipelines](https://github.com/git-fabric/pipelines) | Automated fabric pipelines — composing gateway tools into ambient homelab intelligence | 1 |
+| [git-fabric/proxmox](https://github.com/git-fabric/proxmox) | Proxmox VE fabric app — VMs, containers, nodes, storage, and snapshots as a composable MCP layer | 1 |
+| [rawk-on](https://github.com/ry-ops/rawk-on) | Add songs from The Current's on-air playlist to a daily TIDAL or Spotify playlist — a Chrome (MV3) extension. | 1 |
+| [git-fabric/sandfly](https://github.com/git-fabric/sandfly) | Sandfly Security fabric app — agentless Linux intrusion detection and incident response as a composable MCP layer | 1 |
+| [git-fabric/sdk](https://github.com/git-fabric/sdk) | Fabric-SDK — BGP-style routing layer for autonomous fabric agents. Route locally first, Claude only when nobody else can answer. | 1 |
 | [stackforge](https://github.com/ry-ops/stackforge) | A guided homelab infrastructure bootstrapper. k3s on bare-metal, k3d on Docker Desktop. One script, choose your adventure. | 1 |
+| [git-fabric/tailscale](https://github.com/git-fabric/tailscale) | Tailscale fabric app — devices, DNS, ACL, and auth keys as a composable MCP layer | 1 |
+| [git-fabric/terminal](https://github.com/git-fabric/terminal) | Claude Code + tmux + kubectl in a persistent container. Accessible via Tailscale or kubectl exec. | 1 |
+| [git-fabric/unifi](https://github.com/git-fabric/unifi) | UniFi fabric app — hosts, sites, and devices via the UI.com Cloud API as a composable MCP layer | 1 |
 | [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 1 |
-| [azure-help](https://github.com/ry-ops/azure-help) | Notes and playbooks for the non-obvious corners of the Azure portal | 0 |
-| [rawk-on](https://github.com/ry-ops/rawk-on) | Add songs from The Current's on-air playlist to a daily TIDAL or Spotify playlist — a Chrome (MV3) extension. | 0 |
+| [git-fabric/yt-adr-feed](https://github.com/git-fabric/yt-adr-feed) | YouTube transcript monitor — Qdrant vector storage + GitHub ADR pipeline. Deterministic, no generative AI at runtime. | 1 |
+| [git-fabric/aiana-vllm](https://github.com/git-fabric/aiana-vllm) | AIANA-Ops — Ollama Modelfile for AIANA semantic memory layer (fabric-llm L5 memory primitive) | 0 |
+| [git-fabric/cloudflare-vllm](https://github.com/git-fabric/cloudflare-vllm) | Cloudflare-Ops — API-specialized Ollama Modelfile for Cloudflare v4 API (fabric-llm L3+L7 edge) | 0 |
+| [git-fabric/cve-vllm](https://github.com/git-fabric/cve-vllm) | CVE-Ops — API-specialized Ollama Modelfile for NVD/GHSA/CISA KEV CVE pipeline (fabric-llm L3+L7 vuln intel) | 0 |
+| [git-fabric/fabric-ctrl](https://github.com/git-fabric/fabric-ctrl) | Zero-trust control plane for the git-fabric org. GitHub App identity, security automation, and MCP org tooling. | 0 |
+| [git-fabric/fabric-invoke-vllm](https://github.com/git-fabric/fabric-invoke-vllm) | fabric-invoke — Ollama Modelfile for orchestration runtime intelligence (L4+L6 interceptor) | 0 |
+| [git-fabric/fabric-review](https://github.com/git-fabric/fabric-review) | Automated PR review engine for the git-fabric ecosystem | 0 |
+| [git-fabric/fabric-router-vllm](https://github.com/git-fabric/fabric-router-vllm) | fabric-router — Ollama Modelfile for fabric-sdk meta-routing intelligence (L3+L4 gateway) | 0 |
+| [git-fabric/git-steer-vllm](https://github.com/git-fabric/git-steer-vllm) | git-steer-Ops — Ollama Modelfile for git-steer internal architecture (fabric-llm meta-layer) | 0 |
+| [git-fabric/github-vllm](https://github.com/git-fabric/github-vllm) | GitHub-Ops — API-specialized Ollama Modelfile for GitHub REST API (fabric-llm L3+L5+L6+L7 substrate) | 0 |
+| [git-fabric/k3s-vllm](https://github.com/git-fabric/k3s-vllm) | k3s/Kubernetes API intelligence model — fabric-llm | 0 |
+| [git-fabric/n8n-vllm](https://github.com/git-fabric/n8n-vllm) | n8n-Ops — API-specialized Ollama Modelfile for n8n REST API v1 (fabric-llm L5+L6+L7 orchestration) | 0 |
+| [git-fabric/proxmox-vllm](https://github.com/git-fabric/proxmox-vllm) | Proxmox VE API intelligence model — fabric-llm | 0 |
+| [git-fabric/qdrant-vllm](https://github.com/git-fabric/qdrant-vllm) | qdrant-fabric — Ollama Modelfile for Qdrant vector ops intelligence (L3+L6 foundry) | 0 |
+| [git-fabric/sandfly-vllm](https://github.com/git-fabric/sandfly-vllm) | Sandfly-Ops — API-specialized Ollama Modelfile for Sandfly Security v4 API (fabric-llm L3+L5 security) | 0 |
+| [git-fabric/tailscale-vllm](https://github.com/git-fabric/tailscale-vllm) | Tailscale-Ops — API-specialized Ollama Modelfile for Tailscale v2 API (fabric-llm L1 transport) | 0 |
+| [git-fabric/unifi-vllm](https://github.com/git-fabric/unifi-vllm) | UniFi API intelligence model — fabric-llm | 0 |
 
 **🗄️ Archive · cortex-io**
 
@@ -140,6 +174,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [cortex-io/cortex-docs](https://github.com/cortex-io/cortex-docs) | Archived — Cortex knowledge base: Obsidian vault with architecture decisions, runbooks, and component docs. | 0 |
 | [cortex-io/cortex-gitops](https://github.com/cortex-io/cortex-gitops) | Archived — GitOps manifests for Cortex K3s deployments. ArgoCD-managed, self-healing Kubernetes infrastructure. | 0 |
 | [cortex-io/cortex-k3s](https://github.com/cortex-io/cortex-k3s) | Archived — K3s cluster documentation: Wazuh security, KEDA autoscaling, and monitoring stack. | 0 |
+| [cortex-io/cortex-layer-stack](https://github.com/cortex-io/cortex-layer-stack) | Archived — Helm chart for scale-to-zero AI service stacks with telemetry-driven model distillation. | 0 |
 | [cortex-io/infrastructure-docs](https://github.com/cortex-io/infrastructure-docs) | Archived — Homelab infrastructure documentation: Proxmox, K3s, networking, and service configs. | 0 |
 <!-- INVENTORY:END -->
 
