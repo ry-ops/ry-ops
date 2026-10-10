@@ -6,7 +6,7 @@
   <a href="https://patreon.com/ry_ops"><img src="https://img.shields.io/badge/support-patreon-f0883e?style=flat-square&labelColor=0d1117" alt="Support on Patreon"></a>
 </p>
 
-I build the plumbing that lets AI run real infrastructure: **MCP servers** that give Claude hands on Proxmox, UniFi, Kubernetes, Cloudflare and more; **agent frameworks** for security and GitHub ops; and **ESP32 firmware** for the M5Stack gear on my desk. Everything starts in a homelab in Duluth, Minnesota.
+I build the plumbing that lets AI run real infrastructure: **MCP servers** that give Claude hands on Proxmox, UniFi, Kubernetes, Cloudflare and more; **agent frameworks** for security and GitHub ops; and **ESP32 firmware** for the M5Stack gear on my desk. Everything starts in a homelab in Superior, Wisconsin.
 
 <img src="assets/stats.svg" width="100%" alt="At a glance: public repos, stars, MCP servers, and languages">
 

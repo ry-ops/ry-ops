@@ -50,7 +50,7 @@
   <text x="38" y="132" class="sans" font-size="68" font-weight="700" fill="url(#title)" letter-spacing="-1">ry-ops</text>
   <text x="40" y="172" class="sans" font-size="18" fill="#e6edf3">Building the pipes between infrastructure,</text>
   <text x="40" y="196" class="sans" font-size="18" fill="#e6edf3">automation, and observability.</text>
-  <text x="40" y="228" class="mono" font-size="13" fill="#8b949e">Duluth, MN · homelab · MCP · ESP32 firmware</text>
+  <text x="40" y="228" class="mono" font-size="13" fill="#8b949e">Superior, WI · homelab · MCP · ESP32 firmware</text>
 
   <!-- rotating "now" line -->
   <text x="40" y="262" class="mono" font-size="15" fill="#2dd4bf">&gt;</text>
