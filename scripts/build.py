@@ -25,7 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 USER = "ry-ops"
-ORGS = ["m5stack-lab", "git-fabric", "cortex-io"]
+ORGS = ["m5stack-lab", "git-fabric", "TAEM-DEV", "cortex-io"]
 SKIP = {"ry-ops/ry-ops"}
 FEED = "https://ry-ops.dev/rss.xml"
 UA = "Mozilla/5.0 (compatible; ry-ops-profile-refresh; +https://github.com/ry-ops/ry-ops)"
@@ -57,6 +57,7 @@ SECTIONS = [  # (title, predicate)
     ("🔬 Hardware · m5stack-lab", lambda r: r["owner"] == "m5stack-lab"),
     ("🎓 Tutorials", lambda r: "tutorial" in r["topics"]),
     ("🧪 Tools & experiments", lambda r: r["owner"] in (USER, "git-fabric")),
+    ("🚀 Mission control · TAEM-DEV", lambda r: r["owner"] == "TAEM-DEV"),
     ("🗄️ Archive · cortex-io", lambda r: r["owner"] == "cortex-io"),
 ]
 
