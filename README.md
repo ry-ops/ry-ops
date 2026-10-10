@@ -98,7 +98,13 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [m5stack-lab/cardputer-adv-mirror](https://github.com/m5stack-lab/cardputer-adv-mirror) | Mirror an M5Stack Cardputer ADV display in a web browser over WiFi (ESP32-S3, GRAM readback via SPI, WebSocket streaming) | 2 |
 | [m5stack-lab/doomagotchi](https://github.com/m5stack-lab/doomagotchi) | Self-playing DOOM on an M5Stack Tab5 that turns live 2.4 GHz RF into demons | 1 |
 | [m5stack-lab/Liner](https://github.com/m5stack-lab/Liner) | Now-playing display for Volumio on the M5Stack PaperColor e-paper board | 1 |
+| [m5stack-lab/sferic-sticks3](https://github.com/m5stack-lab/sferic-sticks3) | MIT-licensed ESP32-S3 hardware/radio multitool firmware for the M5Stack StickS3 — a lightning-detection network of RF sensor stations | 1 |
+| [m5stack-lab/stick-s3](https://github.com/m5stack-lab/stick-s3) | StickMirror — M5StickC S3 wireless screen-mirror firmware (PlatformIO) | 1 |
 | [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 1 |
+| [m5stack-lab/cardputer-adv](https://github.com/m5stack-lab/cardputer-adv) | Cardputer ADV firmware catalog: prebuilt third-party firmware binaries (Bruce, Marauder, Nemo, Meshtastic, etc.) + ADRs | 0 |
+| [m5stack-lab/cardputer-adv-dev](https://github.com/m5stack-lab/cardputer-adv-dev) | Cardputer ADV dev workspace — device tooling, hello-world firmware, hardware/firmware notes | 0 |
+| [m5stack-lab/sferic-collector](https://github.com/m5stack-lab/sferic-collector) | sferic fleet collector — companion MCP server + strike/flash store (ADR-0003) | 0 |
+| [m5stack-lab/sferic-tab5](https://github.com/m5stack-lab/sferic-tab5) |  | 0 |
 
 **🎓 Tutorials**
 
@@ -120,6 +126,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
 | [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 2 |
 | [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
+| [AEO](https://github.com/ry-ops/AEO) | Answer Engine Optimization (AEO) content strategy implementation for ry-ops.dev - optimizing for AI-powered search engines | 1 |
 | [git-fabric/aiana](https://github.com/git-fabric/aiana) | Aiana memory fabric app — semantic memory, session context, and cross-project recall as a composable MCP layer | 1 |
 | [git-fabric/aiana-vllm](https://github.com/git-fabric/aiana-vllm) | AIANA-Ops — Ollama Modelfile for AIANA semantic memory layer (fabric-llm L5 memory primitive) | 1 |
 | [ATSFlow](https://github.com/ry-ops/ATSFlow) | AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility | 1 |
@@ -148,6 +155,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/k8s](https://github.com/git-fabric/k8s) | Kubernetes operations fabric app — cluster, pods, deployments, services, and logs as a composable MCP layer | 1 |
 | [git-fabric/n8n-vllm](https://github.com/git-fabric/n8n-vllm) | n8n-Ops — API-specialized Ollama Modelfile for n8n REST API v1 (fabric-llm L5+L6+L7 orchestration) | 1 |
 | [git-fabric/pipelines](https://github.com/git-fabric/pipelines) | Automated fabric pipelines — composing gateway tools into ambient homelab intelligence | 1 |
+| [playbooks](https://github.com/ry-ops/playbooks) | Mr. Robot unlock playbooks — declarative YAML task/finding rules | 1 |
 | [git-fabric/proxmox](https://github.com/git-fabric/proxmox) | Proxmox VE fabric app — VMs, containers, nodes, storage, and snapshots as a composable MCP layer | 1 |
 | [git-fabric/proxmox-vllm](https://github.com/git-fabric/proxmox-vllm) | Proxmox VE API intelligence model — fabric-llm | 1 |
 | [git-fabric/qdrant-vllm](https://github.com/git-fabric/qdrant-vllm) | qdrant-fabric — Ollama Modelfile for Qdrant vector ops intelligence (L3+L6 foundry) | 1 |
@@ -155,15 +163,29 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/sandfly](https://github.com/git-fabric/sandfly) | Sandfly Security fabric app — agentless Linux intrusion detection and incident response as a composable MCP layer | 1 |
 | [git-fabric/sandfly-vllm](https://github.com/git-fabric/sandfly-vllm) | Sandfly-Ops — API-specialized Ollama Modelfile for Sandfly Security v4 API (fabric-llm L3+L5 security) | 1 |
 | [git-fabric/sdk](https://github.com/git-fabric/sdk) | Fabric-SDK — BGP-style routing layer for autonomous fabric agents. Route locally first, Claude only when nobody else can answer. | 1 |
+| [secops-mcp](https://github.com/ry-ops/secops-mcp) | MCP server: Wazuh/Sandfly/Checkmk alerts -> reviewable Ansible remediation | 1 |
+| [sentinel-forge](https://github.com/ry-ops/sentinel-forge) | Red vs Blue Team Security Testing Lab - Automated security exercises with multi-perspective threat detection (Red/Blue/Purple/Black Hat) | 1 |
 | [stackforge](https://github.com/ry-ops/stackforge) | A guided homelab infrastructure bootstrapper. k3s on bare-metal, k3d on Docker Desktop. One script, choose your adventure. | 1 |
 | [git-fabric/tailscale](https://github.com/git-fabric/tailscale) | Tailscale fabric app — devices, DNS, ACL, and auth keys as a composable MCP layer | 1 |
 | [git-fabric/tailscale-vllm](https://github.com/git-fabric/tailscale-vllm) | Tailscale-Ops — API-specialized Ollama Modelfile for Tailscale v2 API (fabric-llm L1 transport) | 1 |
 | [git-fabric/terminal](https://github.com/git-fabric/terminal) | Claude Code + tmux + kubectl in a persistent container. Accessible via Tailscale or kubectl exec. | 1 |
 | [git-fabric/unifi](https://github.com/git-fabric/unifi) | UniFi fabric app — hosts, sites, and devices via the UI.com Cloud API as a composable MCP layer | 1 |
+| [unifi-base44](https://github.com/ry-ops/unifi-base44) | Base44 App: OmniFi | 1 |
 | [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 1 |
 | [git-fabric/unifi-vllm](https://github.com/git-fabric/unifi-vllm) | UniFi API intelligence model — fabric-llm | 1 |
 | [git-fabric/yt-adr-feed](https://github.com/git-fabric/yt-adr-feed) | YouTube transcript monitor — Qdrant vector storage + GitHub ADR pipeline. Deterministic, no generative AI at runtime. | 1 |
 | [beowulf-ai-cluster](https://github.com/ry-ops/beowulf-ai-cluster) | AI Cluster deployed with Ansible on Random computers with random capabilities <sub>(fork)</sub> | 0 |
+
+**🚀 Mission control · TAEM-DEV**
+
+| Repo | What it is | ★ |
+|---|---|--:|
+| [TAEM-DEV/adrs](https://github.com/TAEM-DEV/adrs) | Machine-checkable Architecture Decision Records for the TAEM preflight system | 1 |
+| [TAEM-DEV/ecosystem](https://github.com/TAEM-DEV/ecosystem) | Persistent semantic layer backed by Qdrant for TAEM missions | 1 |
+| [TAEM-DEV/mc-state](https://github.com/TAEM-DEV/mc-state) | Git-first mission state store for TAEM preflight missions | 1 |
+| [TAEM-DEV/missions](https://github.com/TAEM-DEV/missions) |  | 1 |
+| [TAEM-DEV/refexplorer](https://github.com/TAEM-DEV/refexplorer) | Co-citation graph explorer for TAEM domain_knowledge (ADR-009a) | 1 |
+| [TAEM-DEV/taem](https://github.com/TAEM-DEV/taem) | TAEM kernel — Go binary for mission control preflight | 1 |
 
 **🗄️ Archive · cortex-io**
 
