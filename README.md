@@ -79,7 +79,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 26 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 29 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -174,7 +174,6 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 1 |
 | [git-fabric/unifi-vllm](https://github.com/git-fabric/unifi-vllm) | UniFi API intelligence model — fabric-llm | 1 |
 | [git-fabric/yt-adr-feed](https://github.com/git-fabric/yt-adr-feed) | YouTube transcript monitor — Qdrant vector storage + GitHub ADR pipeline. Deterministic, no generative AI at runtime. | 1 |
-| [beowulf-ai-cluster](https://github.com/ry-ops/beowulf-ai-cluster) | AI Cluster deployed with Ansible on Random computers with random capabilities <sub>(fork)</sub> | 0 |
 
 **🚀 Mission control · TAEM-DEV**
 
