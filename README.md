@@ -60,11 +60,11 @@ Eight hands-on tutorials, from your first container to your first Claude agent.
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->
+- [Get Out & Wisconsin: 124 Parks, a Chatbot, and a Badger Who Knocks on the Glass](https://ry-ops.dev/posts/2026-10-18-get-out-wisconsin-inside-the-flagship/) <sub>· Oct 18, 2026</sub>
+- [177 Dependabot PRs, Four Robots, and Me in the Middle](https://ry-ops.dev/posts/2026-10-18-dependabot-prs-four-robots-and-me-in-the-middle/) <sub>· Oct 18, 2026</sub>
 - [RAG vs Fine-Tuning: A Decision Framework for Production](https://ry-ops.dev/posts/2026-08-07-rag-vs-fine-tuning-decision-framework-production/) <sub>· Aug 7, 2026</sub>
 - [7 SSH Settings Your Server Has Wrong Right Now](https://ry-ops.dev/posts/2026-08-04-7-ssh-settings-your-server-has-wrong-right-now/) <sub>· Aug 4, 2026</sub>
 - [AI Code Generators: The Translation Engine Engineers Need to Understand](https://ry-ops.dev/posts/2026-08-02-ai-code-generators-translation-engine-engineers/) <sub>· Aug 2, 2026</sub>
-- [Kubernetes vs Nomad: Stop Using K8s by Default](https://ry-ops.dev/posts/2026-07-29-kubernetes-vs-nomad-stop-using-k8s-by-default/) <sub>· Jul 29, 2026</sub>
-- [Stop Stuffing Your LLM Context: The Lost in the Middle Problem](https://ry-ops.dev/posts/2026-07-18-lost-in-the-middle-llm-context-problem/) <sub>· Jul 18, 2026</sub>
 <!-- BLOG:END -->
 
 More at **[ry-ops.dev](https://ry-ops.dev)**.
@@ -79,7 +79,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 29 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 36 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -96,11 +96,11 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | Repo | What it is | ★ |
 |---|---|--:|
 | [m5stack-lab/cardputer-adv-mirror](https://github.com/m5stack-lab/cardputer-adv-mirror) | Mirror an M5Stack Cardputer ADV display in a web browser over WiFi (ESP32-S3, GRAM readback via SPI, WebSocket streaming) | 2 |
+| [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 2 |
 | [m5stack-lab/doomagotchi](https://github.com/m5stack-lab/doomagotchi) | Self-playing DOOM on an M5Stack Tab5 that turns live 2.4 GHz RF into demons | 1 |
 | [m5stack-lab/Liner](https://github.com/m5stack-lab/Liner) | Now-playing display for Volumio on the M5Stack PaperColor e-paper board | 1 |
 | [m5stack-lab/sferic-sticks3](https://github.com/m5stack-lab/sferic-sticks3) | MIT-licensed ESP32-S3 hardware/radio multitool firmware for the M5Stack StickS3 — a lightning-detection network of RF sensor stations | 1 |
 | [m5stack-lab/stick-s3](https://github.com/m5stack-lab/stick-s3) | StickMirror — M5StickC S3 wireless screen-mirror firmware (PlatformIO) | 1 |
-| [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 1 |
 | [m5stack-lab/cardputer-adv](https://github.com/m5stack-lab/cardputer-adv) | Cardputer ADV firmware catalog: prebuilt third-party firmware binaries (Bruce, Marauder, Nemo, Meshtastic, etc.) + ADRs | 0 |
 | [m5stack-lab/cardputer-adv-dev](https://github.com/m5stack-lab/cardputer-adv-dev) | Cardputer ADV dev workspace — device tooling, hello-world firmware, hardware/firmware notes | 0 |
 | [m5stack-lab/sferic-collector](https://github.com/m5stack-lab/sferic-collector) | sferic fleet collector — companion MCP server + strike/flash store (ADR-0003) | 0 |
@@ -110,11 +110,6 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [building-rest-api-fastapi](https://github.com/ry-ops/building-rest-api-fastapi) | Build blazing-fast REST APIs with FastAPI, automatic docs, and type safety | 1 |
-| [building-serverless-website-github-cloudflare](https://github.com/ry-ops/building-serverless-website-github-cloudflare) | Build lightning-fast serverless websites with Astro, GitHub, and Cloudflare Pages | 1 |
-| [building-your-first-claude-agent](https://github.com/ry-ops/building-your-first-claude-agent) | Learn to build intelligent agents with Claude that automate your workflow | 1 |
-| [creating-your-first-mcp-server](https://github.com/ry-ops/creating-your-first-mcp-server) | Extend Claude with custom tools by building Model Context Protocol servers | 1 |
-| [deploying-your-first-kubernetes-cluster](https://github.com/ry-ops/deploying-your-first-kubernetes-cluster) | Deploy production-ready Kubernetes clusters with K3s | 1 |
 | [getting-started-docker-containers](https://github.com/ry-ops/getting-started-docker-containers) | Package applications into portable containers with Docker | 1 |
 | [monitoring-infrastructure-prometheus-grafana](https://github.com/ry-ops/monitoring-infrastructure-prometheus-grafana) | Monitor infrastructure with Prometheus metrics and Grafana dashboards | 1 |
 | [setting-up-cicd-github-actions](https://github.com/ry-ops/setting-up-cicd-github-actions) | Automate testing and deployment with GitHub Actions CI/CD pipelines | 1 |
@@ -124,6 +119,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | Repo | What it is | ★ |
 |---|---|--:|
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
+| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 2 |
 | [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 2 |
 | [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
 | [AEO](https://github.com/ry-ops/AEO) | Answer Engine Optimization (AEO) content strategy implementation for ry-ops.dev - optimizing for AI-powered search engines | 1 |
@@ -146,7 +142,6 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/fabric-review](https://github.com/git-fabric/fabric-review) | Automated PR review engine for the git-fabric ecosystem | 1 |
 | [git-fabric/fabric-router-vllm](https://github.com/git-fabric/fabric-router-vllm) | fabric-router — Ollama Modelfile for fabric-sdk meta-routing intelligence (L3+L4 gateway) | 1 |
 | [git-fabric/fabric-state](https://github.com/git-fabric/fabric-state) | CVE queue state and scan history for fabric-ctrl | 1 |
-| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 1 |
 | [git-fabric/gateway](https://github.com/git-fabric/gateway) | Fabric gateway — routes, connects, and orchestrates git-fabric apps. The connective tissue. | 1 |
 | [git-fabric/git](https://github.com/git-fabric/git) | Git operations fabric app — commit, push, branch, PR, and repo management as a composable MCP layer | 1 |
 | [git-fabric/git-steer-vllm](https://github.com/git-fabric/git-steer-vllm) | git-steer-Ops — Ollama Modelfile for git-steer internal architecture (fabric-llm meta-layer) | 1 |
@@ -174,6 +169,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 1 |
 | [git-fabric/unifi-vllm](https://github.com/git-fabric/unifi-vllm) | UniFi API intelligence model — fabric-llm | 1 |
 | [git-fabric/yt-adr-feed](https://github.com/git-fabric/yt-adr-feed) | YouTube transcript monitor — Qdrant vector storage + GitHub ADR pipeline. Deterministic, no generative AI at runtime. | 1 |
+| [cf-deploy](https://github.com/ry-ops/cf-deploy) | Shared GitHub Actions workflows for deploying Cloudflare Pages sites and Workers | 0 |
 
 **🚀 Mission control · TAEM-DEV**
 
