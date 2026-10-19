@@ -95,14 +95,6 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [m5stack-lab/sferic-collector](https://github.com/m5stack-lab/sferic-collector) | sferic fleet collector — companion MCP server + strike/flash store (ADR-0003) | 0 |
 | [m5stack-lab/sferic-tab5](https://github.com/m5stack-lab/sferic-tab5) |  | 0 |
 
-**🎓 Tutorials**
-
-| Repo | What it is | ★ |
-|---|---|--:|
-| [getting-started-docker-containers](https://github.com/ry-ops/getting-started-docker-containers) | Package applications into portable containers with Docker | 1 |
-| [monitoring-infrastructure-prometheus-grafana](https://github.com/ry-ops/monitoring-infrastructure-prometheus-grafana) | Monitor infrastructure with Prometheus metrics and Grafana dashboards | 1 |
-| [setting-up-cicd-github-actions](https://github.com/ry-ops/setting-up-cicd-github-actions) | Automate testing and deployment with GitHub Actions CI/CD pipelines | 1 |
-
 **🧪 Tools & experiments**
 
 | Repo | What it is | ★ |
