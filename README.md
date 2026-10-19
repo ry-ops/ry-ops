@@ -46,17 +46,6 @@ ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https:/
 <a href="https://github.com/cortex-io"><b>cortex-io</b></a> · the archive
 </p>
 
-## 🎓 Learn with me
-
-Eight hands-on tutorials, from your first container to your first Claude agent.
-
-<img src="assets/learn.svg" width="100%" alt="Metro map of eight tutorials">
-
-| | | | |
-|---|---|---|---|
-| **1** [Docker containers](https://github.com/ry-ops/getting-started-docker-containers) | **2** [REST APIs with FastAPI](https://github.com/ry-ops/building-rest-api-fastapi) | **3** [CI/CD with GitHub Actions](https://github.com/ry-ops/setting-up-cicd-github-actions) | **4** [Kubernetes with K3s](https://github.com/ry-ops/deploying-your-first-kubernetes-cluster) |
-| **5** [Prometheus + Grafana](https://github.com/ry-ops/monitoring-infrastructure-prometheus-grafana) | **6** [Serverless with Astro + Cloudflare](https://github.com/ry-ops/building-serverless-website-github-cloudflare) | **7** [Your first MCP server](https://github.com/ry-ops/creating-your-first-mcp-server) | **8** [Your first Claude agent](https://github.com/ry-ops/building-your-first-claude-agent) |
-
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->

@@ -55,7 +55,6 @@ DESCRIPTIONS = {
 SECTIONS = [  # (title, predicate)
     ("🔌 MCP servers", lambda r: r["name"] in {s[0] for s in MCP_SERVERS} and r["owner"] == USER),
     ("🔬 Hardware · m5stack-lab", lambda r: r["owner"] == "m5stack-lab"),
-    ("🎓 Tutorials", lambda r: "tutorial" in r["topics"]),
     ("🧪 Tools & experiments", lambda r: r["owner"] in (USER, "git-fabric")),
     ("🚀 Mission control · TAEM-DEV", lambda r: r["owner"] == "TAEM-DEV"),
     ("🗄️ Archive · cortex-io", lambda r: r["owner"] == "cortex-io"),
