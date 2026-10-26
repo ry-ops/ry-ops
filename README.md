@@ -152,6 +152,13 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/yt-adr-feed](https://github.com/git-fabric/yt-adr-feed) | YouTube transcript monitor — Qdrant vector storage + GitHub ADR pipeline. Deterministic, no generative AI at runtime. | 1 |
 | [cf-deploy](https://github.com/ry-ops/cf-deploy) | Shared GitHub Actions workflows for deploying Cloudflare Pages sites and Workers | 0 |
 
+**☁️ Cloud · fabric-forge**
+
+| Repo | What it is | ★ |
+|---|---|--:|
+| [fabric-forge/driveiq-cloud](https://github.com/fabric-forge/driveiq-cloud) | DriveIQ backend — Hono/Cloudflare Workers (serverless replatform of ry-ops/DriveIQ) | 0 |
+| [fabric-forge/driveiq-ui](https://github.com/fabric-forge/driveiq-ui) | DriveIQ frontend — served at driveiq.ry-ops.dev (serverless replatform of ry-ops/DriveIQ) | 0 |
+
 **🚀 Mission control · TAEM-DEV**
 
 | Repo | What it is | ★ |
