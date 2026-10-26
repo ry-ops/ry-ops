@@ -49,11 +49,11 @@ ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https:/
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->
+- [AFM Studio: The Free, Private AI App Hiding Inside Your Mac](https://ry-ops.dev/posts/2026-10-24-afm-studio-apple-on-device-model/) <sub>· Oct 25, 2026</sub>
+- [Ask Badge: How I Planned, Built and Locked Down a Chatbot That Only Knows One Website](https://ry-ops.dev/posts/2026-10-24-ask-badge-site-scoped-chatbot/) <sub>· Oct 24, 2026</sub>
 - [Get Out & Wisconsin: 124 Parks, a Chatbot, and a Badger Who Knocks on the Glass](https://ry-ops.dev/posts/2026-10-18-get-out-wisconsin-inside-the-flagship/) <sub>· Oct 18, 2026</sub>
 - [177 Dependabot PRs, Four Robots, and Me in the Middle](https://ry-ops.dev/posts/2026-10-18-dependabot-prs-four-robots-and-me-in-the-middle/) <sub>· Oct 18, 2026</sub>
 - [RAG vs Fine-Tuning: A Decision Framework for Production](https://ry-ops.dev/posts/2026-08-07-rag-vs-fine-tuning-decision-framework-production/) <sub>· Aug 7, 2026</sub>
-- [7 SSH Settings Your Server Has Wrong Right Now](https://ry-ops.dev/posts/2026-08-04-7-ssh-settings-your-server-has-wrong-right-now/) <sub>· Aug 4, 2026</sub>
-- [AI Code Generators: The Translation Engine Engineers Need to Understand](https://ry-ops.dev/posts/2026-08-02-ai-code-generators-translation-engine-engineers/) <sub>· Aug 2, 2026</sub>
 <!-- BLOG:END -->
 
 More at **[ry-ops.dev](https://ry-ops.dev)**.
@@ -68,7 +68,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 36 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 42 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -77,7 +77,6 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [qdrant-fabric](https://github.com/ry-ops/qdrant-fabric) | Model Context Protocol server for Qdrant - Part of Infrastructure as a Fabric ecosystem. Provides 30+ tools for vector database operations, semantic search, and AI memory management. | 2 |
 | [aiana](https://github.com/ry-ops/aiana) | AI conversation attendant for Claude Code - monitors and records conversations in real-time via Claude Code API | 1 |
 | [eagle-scout](https://github.com/ry-ops/eagle-scout) | MCP server for Docker Scout - container security scanning | 1 |
-| [git-steer](https://github.com/ry-ops/git-steer) | Self-hosting GitHub autonomy engine. Rate-limit-hardened MCP server for autonomous repo management, security sweeps, RFC tracking, and CI orchestration. Zero local footprint — steering wheel on your Mac, engine on GitHub. 🚜 | 1 |
 | [n8n-fabric](https://github.com/ry-ops/n8n-fabric) | Workflow automation fabric layer - n8n MCP server with Qdrant vectors and Redis caching | 1 |
 
 **🔬 Hardware · m5stack-lab**
@@ -85,10 +84,10 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | Repo | What it is | ★ |
 |---|---|--:|
 | [m5stack-lab/cardputer-adv-mirror](https://github.com/m5stack-lab/cardputer-adv-mirror) | Mirror an M5Stack Cardputer ADV display in a web browser over WiFi (ESP32-S3, GRAM readback via SPI, WebSocket streaming) | 2 |
+| [m5stack-lab/sferic-sticks3](https://github.com/m5stack-lab/sferic-sticks3) | MIT-licensed ESP32-S3 hardware/radio multitool firmware for the M5Stack StickS3 — a lightning-detection network of RF sensor stations | 2 |
 | [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 2 |
 | [m5stack-lab/doomagotchi](https://github.com/m5stack-lab/doomagotchi) | Self-playing DOOM on an M5Stack Tab5 that turns live 2.4 GHz RF into demons | 1 |
 | [m5stack-lab/Liner](https://github.com/m5stack-lab/Liner) | Now-playing display for Volumio on the M5Stack PaperColor e-paper board | 1 |
-| [m5stack-lab/sferic-sticks3](https://github.com/m5stack-lab/sferic-sticks3) | MIT-licensed ESP32-S3 hardware/radio multitool firmware for the M5Stack StickS3 — a lightning-detection network of RF sensor stations | 1 |
 | [m5stack-lab/stick-s3](https://github.com/m5stack-lab/stick-s3) | StickMirror — M5StickC S3 wireless screen-mirror firmware (PlatformIO) | 1 |
 | [m5stack-lab/cardputer-adv](https://github.com/m5stack-lab/cardputer-adv) | Cardputer ADV firmware catalog: prebuilt third-party firmware binaries (Bruce, Marauder, Nemo, Meshtastic, etc.) + ADRs | 0 |
 | [m5stack-lab/cardputer-adv-dev](https://github.com/m5stack-lab/cardputer-adv-dev) | Cardputer ADV dev workspace — device tooling, hello-world firmware, hardware/firmware notes | 0 |
@@ -99,11 +98,12 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
+| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 3 |
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
-| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 2 |
 | [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 2 |
 | [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
 | [AEO](https://github.com/ry-ops/AEO) | Answer Engine Optimization (AEO) content strategy implementation for ry-ops.dev - optimizing for AI-powered search engines | 1 |
+| [afm-studio](https://github.com/ry-ops/afm-studio) | Apple's on-device foundation model as a Mac app, a CLI, an MCP server for Claude, and a local OpenAI-compatible API. Pure Swift. | 1 |
 | [git-fabric/aiana](https://github.com/git-fabric/aiana) | Aiana memory fabric app — semantic memory, session context, and cross-project recall as a composable MCP layer | 1 |
 | [git-fabric/aiana-vllm](https://github.com/git-fabric/aiana-vllm) | AIANA-Ops — Ollama Modelfile for AIANA semantic memory layer (fabric-llm L5 memory primitive) | 1 |
 | [ATSFlow](https://github.com/ry-ops/ATSFlow) | AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility | 1 |
