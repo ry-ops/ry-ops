@@ -5,6 +5,7 @@ Each card is a self-contained SVG: a shared frame (name, description, language,
 tags) plus a small hand-drawn animation on the right. Edit CARDS to change copy.
 """
 
+import math
 from html import escape
 from pathlib import Path
 
@@ -138,7 +139,6 @@ def art(kind: str, accent: str) -> str:
                          f'<rect x="16" y="{y + 8}" width="34" height="6" rx="3" fill="#30363d"/>{leds}')
         snippet = snippet.format(units="\n    ".join(units))
     if kind == "pods":
-        import math
         pods = []
         for i in range(6):
             a = math.radians(i * 60 - 90)
