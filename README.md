@@ -49,11 +49,11 @@ ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https:/
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->
+- [Receipts: How the Orca, OpenRig and Herdr Post Was Made](https://ry-ops.dev/posts/2026-10-28-receipts-how-the-orca-openrig-herdr-post-was-made/) <sub>· Oct 28, 2026</sub>
+- [Orca, OpenRig and Herdr, and What None of Them Do](https://ry-ops.dev/posts/2026-10-27-orca-openrig-herdr-what-none-of-them-do/) <sub>· Oct 27, 2026</sub>
 - [AFM Studio: The Free, Private AI App Hiding Inside Your Mac](https://ry-ops.dev/posts/2026-10-24-afm-studio-apple-on-device-model/) <sub>· Oct 25, 2026</sub>
 - [Ask Badge: How I Planned, Built and Locked Down a Chatbot That Only Knows One Website](https://ry-ops.dev/posts/2026-10-24-ask-badge-site-scoped-chatbot/) <sub>· Oct 24, 2026</sub>
 - [Get Out & Wisconsin: 124 Parks, a Chatbot, and a Badger Who Knocks on the Glass](https://ry-ops.dev/posts/2026-10-18-get-out-wisconsin-inside-the-flagship/) <sub>· Oct 18, 2026</sub>
-- [177 Dependabot PRs, Four Robots, and Me in the Middle](https://ry-ops.dev/posts/2026-10-18-dependabot-prs-four-robots-and-me-in-the-middle/) <sub>· Oct 18, 2026</sub>
-- [RAG vs Fine-Tuning: A Decision Framework for Production](https://ry-ops.dev/posts/2026-08-07-rag-vs-fine-tuning-decision-framework-production/) <sub>· Aug 7, 2026</sub>
 <!-- BLOG:END -->
 
 More at **[ry-ops.dev](https://ry-ops.dev)**.
@@ -68,7 +68,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 42 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 50 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -98,12 +98,12 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 3 |
+| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 4 |
+| [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 3 |
+| [afm-studio](https://github.com/ry-ops/afm-studio) | Apple's on-device foundation model as a Mac app, a CLI, an MCP server for Claude, and a local OpenAI-compatible API. Pure Swift. | 2 |
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
-| [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 2 |
 | [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
 | [AEO](https://github.com/ry-ops/AEO) | Answer Engine Optimization (AEO) content strategy implementation for ry-ops.dev - optimizing for AI-powered search engines | 1 |
-| [afm-studio](https://github.com/ry-ops/afm-studio) | Apple's on-device foundation model as a Mac app, a CLI, an MCP server for Claude, and a local OpenAI-compatible API. Pure Swift. | 1 |
 | [git-fabric/aiana](https://github.com/git-fabric/aiana) | Aiana memory fabric app — semantic memory, session context, and cross-project recall as a composable MCP layer | 1 |
 | [git-fabric/aiana-vllm](https://github.com/git-fabric/aiana-vllm) | AIANA-Ops — Ollama Modelfile for AIANA semantic memory layer (fabric-llm L5 memory primitive) | 1 |
 | [ATSFlow](https://github.com/ry-ops/ATSFlow) | AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility | 1 |
@@ -151,6 +151,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/unifi-vllm](https://github.com/git-fabric/unifi-vllm) | UniFi API intelligence model — fabric-llm | 1 |
 | [git-fabric/yt-adr-feed](https://github.com/git-fabric/yt-adr-feed) | YouTube transcript monitor — Qdrant vector storage + GitHub ADR pipeline. Deterministic, no generative AI at runtime. | 1 |
 | [cf-deploy](https://github.com/ry-ops/cf-deploy) | Shared GitHub Actions workflows for deploying Cloudflare Pages sites and Workers | 0 |
+| [receipts](https://github.com/ry-ops/receipts) | Archived: moved into the ry-ops.dev blog. See ry-ops.dev/category/receipts | 0 |
 
 **☁️ Cloud · fabric-forge**
 
