@@ -49,11 +49,11 @@ ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https:/
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->
+- [Receipts: How the Klieg Post Was Made](https://ry-ops.dev/posts/2026-11-01-receipts-how-the-klieg-post-was-made/) <sub>· Nov 1, 2026</sub>
+- [Introducing Klieg](https://ry-ops.dev/posts/2026-11-01-introducing-klieg/) <sub>· Nov 1, 2026</sub>
 - [Receipts: How the Orca, OpenRig and Herdr Post Was Made](https://ry-ops.dev/posts/2026-10-28-receipts-how-the-orca-openrig-herdr-post-was-made/) <sub>· Oct 28, 2026</sub>
 - [Orca, OpenRig and Herdr, and What None of Them Do](https://ry-ops.dev/posts/2026-10-27-orca-openrig-herdr-what-none-of-them-do/) <sub>· Oct 27, 2026</sub>
 - [AFM Studio: The Free, Private AI App Hiding Inside Your Mac](https://ry-ops.dev/posts/2026-10-24-afm-studio-apple-on-device-model/) <sub>· Oct 25, 2026</sub>
-- [Ask Badge: How I Planned, Built and Locked Down a Chatbot That Only Knows One Website](https://ry-ops.dev/posts/2026-10-24-ask-badge-site-scoped-chatbot/) <sub>· Oct 24, 2026</sub>
-- [Get Out & Wisconsin: 124 Parks, a Chatbot, and a Badger Who Knocks on the Glass](https://ry-ops.dev/posts/2026-10-18-get-out-wisconsin-inside-the-flagship/) <sub>· Oct 18, 2026</sub>
 <!-- BLOG:END -->
 
 More at **[ry-ops.dev](https://ry-ops.dev)**.
@@ -68,7 +68,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 50 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 56 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -129,6 +129,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/github-vllm](https://github.com/git-fabric/github-vllm) | GitHub-Ops — API-specialized Ollama Modelfile for GitHub REST API (fabric-llm L3+L5+L6+L7 substrate) | 1 |
 | [git-fabric/k3s-vllm](https://github.com/git-fabric/k3s-vllm) | k3s/Kubernetes API intelligence model — fabric-llm | 1 |
 | [git-fabric/k8s](https://github.com/git-fabric/k8s) | Kubernetes operations fabric app — cluster, pods, deployments, services, and logs as a composable MCP layer | 1 |
+| [klieg](https://github.com/ry-ops/klieg) | A spotlight on your coding agents: watch and steer herdr + OpenRig from a macOS app, CLI and MCP server | 1 |
 | [git-fabric/n8n-vllm](https://github.com/git-fabric/n8n-vllm) | n8n-Ops — API-specialized Ollama Modelfile for n8n REST API v1 (fabric-llm L5+L6+L7 orchestration) | 1 |
 | [git-fabric/pipelines](https://github.com/git-fabric/pipelines) | Automated fabric pipelines — composing gateway tools into ambient homelab intelligence | 1 |
 | [playbooks](https://github.com/ry-ops/playbooks) | Mr. Robot unlock playbooks — declarative YAML task/finding rules | 1 |
