@@ -49,8 +49,8 @@ ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https:/
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->
-- [Receipts: How the Klieg Post Was Made](https://ry-ops.dev/posts/2026-11-01-receipts-how-the-klieg-post-was-made/) <sub>· Nov 1, 2026</sub>
-- [Introducing Klieg](https://ry-ops.dev/posts/2026-11-01-introducing-klieg/) <sub>· Nov 1, 2026</sub>
+- [Liner 1.9: Now-Playing E-Paper for Volumio 4](https://ry-ops.dev/posts/2026-11-08-liner-1-9-now-playing-e-paper-for-volumio-4/) <sub>· Nov 8, 2026</sub>
+- [Receipts: Liner 1.9 Against 1.5, Behind the Scenes](https://ry-ops.dev/posts/2026-11-08-receipts-liner-1-9-behind-the-scenes/) <sub>· Nov 8, 2026</sub>
 - [Receipts: How the Orca, OpenRig and Herdr Post Was Made](https://ry-ops.dev/posts/2026-10-28-receipts-how-the-orca-openrig-herdr-post-was-made/) <sub>· Oct 28, 2026</sub>
 - [Orca, OpenRig and Herdr, and What None of Them Do](https://ry-ops.dev/posts/2026-10-27-orca-openrig-herdr-what-none-of-them-do/) <sub>· Oct 27, 2026</sub>
 - [AFM Studio: The Free, Private AI App Hiding Inside Your Mac](https://ry-ops.dev/posts/2026-10-24-afm-studio-apple-on-device-model/) <sub>· Oct 25, 2026</sub>
@@ -68,7 +68,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 56 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 72 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -83,9 +83,9 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
+| [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 3 |
 | [m5stack-lab/cardputer-adv-mirror](https://github.com/m5stack-lab/cardputer-adv-mirror) | Mirror an M5Stack Cardputer ADV display in a web browser over WiFi (ESP32-S3, GRAM readback via SPI, WebSocket streaming) | 2 |
 | [m5stack-lab/sferic-sticks3](https://github.com/m5stack-lab/sferic-sticks3) | MIT-licensed ESP32-S3 hardware/radio multitool firmware for the M5Stack StickS3 — a lightning-detection network of RF sensor stations | 2 |
-| [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 2 |
 | [m5stack-lab/doomagotchi](https://github.com/m5stack-lab/doomagotchi) | Self-playing DOOM on an M5Stack Tab5 that turns live 2.4 GHz RF into demons | 1 |
 | [m5stack-lab/Liner](https://github.com/m5stack-lab/Liner) | Now-playing display for Volumio on the M5Stack PaperColor e-paper board | 1 |
 | [m5stack-lab/stick-s3](https://github.com/m5stack-lab/stick-s3) | StickMirror — M5StickC S3 wireless screen-mirror firmware (PlatformIO) | 1 |
@@ -98,7 +98,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 4 |
+| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 5 |
 | [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 3 |
 | [afm-studio](https://github.com/ry-ops/afm-studio) | Apple's on-device foundation model as a Mac app, a CLI, an MCP server for Claude, and a local OpenAI-compatible API. Pure Swift. | 2 |
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
@@ -129,7 +129,6 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/github-vllm](https://github.com/git-fabric/github-vllm) | GitHub-Ops — API-specialized Ollama Modelfile for GitHub REST API (fabric-llm L3+L5+L6+L7 substrate) | 1 |
 | [git-fabric/k3s-vllm](https://github.com/git-fabric/k3s-vllm) | k3s/Kubernetes API intelligence model — fabric-llm | 1 |
 | [git-fabric/k8s](https://github.com/git-fabric/k8s) | Kubernetes operations fabric app — cluster, pods, deployments, services, and logs as a composable MCP layer | 1 |
-| [klieg](https://github.com/ry-ops/klieg) | A spotlight on your coding agents: watch and steer herdr + OpenRig from a macOS app, CLI and MCP server | 1 |
 | [git-fabric/n8n-vllm](https://github.com/git-fabric/n8n-vllm) | n8n-Ops — API-specialized Ollama Modelfile for n8n REST API v1 (fabric-llm L5+L6+L7 orchestration) | 1 |
 | [git-fabric/pipelines](https://github.com/git-fabric/pipelines) | Automated fabric pipelines — composing gateway tools into ambient homelab intelligence | 1 |
 | [playbooks](https://github.com/ry-ops/playbooks) | Mr. Robot unlock playbooks — declarative YAML task/finding rules | 1 |
