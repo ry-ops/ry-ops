@@ -49,11 +49,11 @@ ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https:/
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->
-- [Liner 1.9: Now-Playing E-Paper for Volumio 4](https://ry-ops.dev/posts/2026-11-08-liner-1-9-now-playing-e-paper-for-volumio-4/) <sub>· Nov 8, 2026</sub>
-- [Receipts: Liner 1.9 Against 1.5, Behind the Scenes](https://ry-ops.dev/posts/2026-11-08-receipts-liner-1-9-behind-the-scenes/) <sub>· Nov 8, 2026</sub>
-- [Receipts: How the Orca, OpenRig and Herdr Post Was Made](https://ry-ops.dev/posts/2026-10-28-receipts-how-the-orca-openrig-herdr-post-was-made/) <sub>· Oct 28, 2026</sub>
-- [Orca, OpenRig and Herdr, and What None of Them Do](https://ry-ops.dev/posts/2026-10-27-orca-openrig-herdr-what-none-of-them-do/) <sub>· Oct 27, 2026</sub>
-- [AFM Studio: The Free, Private AI App Hiding Inside Your Mac](https://ry-ops.dev/posts/2026-10-24-afm-studio-apple-on-device-model/) <sub>· Oct 25, 2026</sub>
+- [DriveIQ 2.0: Your Own Vehicle Assistant, One Button Away](https://ry-ops.dev/posts/2026-11-14-driveiq-2-0-your-own-vehicle-assistant-one-button-away/) <sub>· Nov 14, 2026</sub>
+- [Moving DriveIQ's Search from Qdrant to Cloudflare Vectorize](https://ry-ops.dev/posts/2026-11-14-moving-driveiq-search-from-qdrant-to-cloudflare-vectorize/) <sub>· Nov 14, 2026</sub>
+- [Receipts: DriveIQ's Move to Vectorize, Behind the Scenes](https://ry-ops.dev/posts/2026-11-14-receipts-driveiq-vectorize-behind-the-scenes/) <sub>· Nov 14, 2026</sub>
+- [proxmox-mcp-server 2.14: Datacenter Manager, and an OS by Asking](https://ry-ops.dev/posts/2026-11-12-proxmox-mcp-server-2-14-datacenter-manager-and-an-os-by-asking/) <sub>· Nov 12, 2026</sub>
+- [Receipts: proxmox-mcp-server 2.14, Behind the Scenes](https://ry-ops.dev/posts/2026-11-12-receipts-proxmox-mcp-server-2-14-behind-the-scenes/) <sub>· Nov 12, 2026</sub>
 <!-- BLOG:END -->
 
 More at **[ry-ops.dev](https://ry-ops.dev)**.
@@ -68,7 +68,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 72 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 81 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -86,10 +86,10 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [m5stack-lab/tab5-mirror](https://github.com/m5stack-lab/tab5-mirror) | Browser display mirror + remote control for the M5Stack Tab5, forked from cardputer-adv-mirror | 3 |
 | [m5stack-lab/cardputer-adv-mirror](https://github.com/m5stack-lab/cardputer-adv-mirror) | Mirror an M5Stack Cardputer ADV display in a web browser over WiFi (ESP32-S3, GRAM readback via SPI, WebSocket streaming) | 2 |
 | [m5stack-lab/sferic-sticks3](https://github.com/m5stack-lab/sferic-sticks3) | MIT-licensed ESP32-S3 hardware/radio multitool firmware for the M5Stack StickS3 — a lightning-detection network of RF sensor stations | 2 |
+| [m5stack-lab/cardputer-adv](https://github.com/m5stack-lab/cardputer-adv) | Cardputer ADV firmware catalog: prebuilt third-party firmware binaries (Bruce, Marauder, Nemo, Meshtastic, etc.) + ADRs | 1 |
 | [m5stack-lab/doomagotchi](https://github.com/m5stack-lab/doomagotchi) | Self-playing DOOM on an M5Stack Tab5 that turns live 2.4 GHz RF into demons | 1 |
 | [m5stack-lab/Liner](https://github.com/m5stack-lab/Liner) | Now-playing display for Volumio on the M5Stack PaperColor e-paper board | 1 |
 | [m5stack-lab/stick-s3](https://github.com/m5stack-lab/stick-s3) | StickMirror — M5StickC S3 wireless screen-mirror firmware (PlatformIO) | 1 |
-| [m5stack-lab/cardputer-adv](https://github.com/m5stack-lab/cardputer-adv) | Cardputer ADV firmware catalog: prebuilt third-party firmware binaries (Bruce, Marauder, Nemo, Meshtastic, etc.) + ADRs | 0 |
 | [m5stack-lab/cardputer-adv-dev](https://github.com/m5stack-lab/cardputer-adv-dev) | Cardputer ADV dev workspace — device tooling, hello-world firmware, hardware/firmware notes | 0 |
 | [m5stack-lab/sferic-collector](https://github.com/m5stack-lab/sferic-collector) | sferic fleet collector — companion MCP server + strike/flash store (ADR-0003) | 0 |
 | [m5stack-lab/sferic-tab5](https://github.com/m5stack-lab/sferic-tab5) |  | 0 |
@@ -102,6 +102,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 3 |
 | [afm-studio](https://github.com/ry-ops/afm-studio) | Apple's on-device foundation model as a Mac app, a CLI, an MCP server for Claude, and a local OpenAI-compatible API. Pure Swift. | 2 |
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
+| [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 2 |
 | [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
 | [AEO](https://github.com/ry-ops/AEO) | Answer Engine Optimization (AEO) content strategy implementation for ry-ops.dev - optimizing for AI-powered search engines | 1 |
 | [git-fabric/aiana](https://github.com/git-fabric/aiana) | Aiana memory fabric app — semantic memory, session context, and cross-project recall as a composable MCP layer | 1 |
@@ -110,6 +111,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [azure-help](https://github.com/ry-ops/azure-help) | Notes and playbooks for the non-obvious corners of the Azure portal | 1 |
 | [bloatkill](https://github.com/ry-ops/bloatkill) | Windows storage cleanup reference: a zero-dependency audit dashboard | 1 |
 | [capture-cadence](https://github.com/ry-ops/capture-cadence) | Scheduled full-page website screenshot automation. Puppeteer + Express.js with web UI, custom intervals, WebP output, and Docker support. [Archived] | 1 |
+| [cf-deploy](https://github.com/ry-ops/cf-deploy) | Shared GitHub Actions workflows for deploying Cloudflare Pages sites and Workers | 1 |
 | [git-fabric/chat](https://github.com/git-fabric/chat) | Chat fabric app — AI conversation sessions, semantic history search, and context threading as a composable MCP layer | 1 |
 | [git-fabric/cloudflare](https://github.com/git-fabric/cloudflare) | Cloudflare fabric app — DNS, zones, cache, and KV as a composable MCP layer | 1 |
 | [git-fabric/cloudflare-vllm](https://github.com/git-fabric/cloudflare-vllm) | Cloudflare-Ops — API-specialized Ollama Modelfile for Cloudflare v4 API (fabric-llm L3+L7 edge) | 1 |
@@ -136,6 +138,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/proxmox-vllm](https://github.com/git-fabric/proxmox-vllm) | Proxmox VE API intelligence model — fabric-llm | 1 |
 | [git-fabric/qdrant-vllm](https://github.com/git-fabric/qdrant-vllm) | qdrant-fabric — Ollama Modelfile for Qdrant vector ops intelligence (L3+L6 foundry) | 1 |
 | [rawk-on](https://github.com/ry-ops/rawk-on) | Add songs from The Current's on-air playlist to a daily TIDAL or Spotify playlist — a Chrome (MV3) extension. | 1 |
+| [receipts](https://github.com/ry-ops/receipts) | Archived: moved into the ry-ops.dev blog. See ry-ops.dev/category/receipts | 1 |
 | [git-fabric/sandfly](https://github.com/git-fabric/sandfly) | Sandfly Security fabric app — agentless Linux intrusion detection and incident response as a composable MCP layer | 1 |
 | [git-fabric/sandfly-vllm](https://github.com/git-fabric/sandfly-vllm) | Sandfly-Ops — API-specialized Ollama Modelfile for Sandfly Security v4 API (fabric-llm L3+L5 security) | 1 |
 | [git-fabric/sdk](https://github.com/git-fabric/sdk) | Fabric-SDK — BGP-style routing layer for autonomous fabric agents. Route locally first, Claude only when nobody else can answer. | 1 |
@@ -147,18 +150,8 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [git-fabric/terminal](https://github.com/git-fabric/terminal) | Claude Code + tmux + kubectl in a persistent container. Accessible via Tailscale or kubectl exec. | 1 |
 | [git-fabric/unifi](https://github.com/git-fabric/unifi) | UniFi fabric app — hosts, sites, and devices via the UI.com Cloud API as a composable MCP layer | 1 |
 | [unifi-base44](https://github.com/ry-ops/unifi-base44) | Base44 App: OmniFi | 1 |
-| [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 1 |
 | [git-fabric/unifi-vllm](https://github.com/git-fabric/unifi-vllm) | UniFi API intelligence model — fabric-llm | 1 |
 | [git-fabric/yt-adr-feed](https://github.com/git-fabric/yt-adr-feed) | YouTube transcript monitor — Qdrant vector storage + GitHub ADR pipeline. Deterministic, no generative AI at runtime. | 1 |
-| [cf-deploy](https://github.com/ry-ops/cf-deploy) | Shared GitHub Actions workflows for deploying Cloudflare Pages sites and Workers | 0 |
-| [receipts](https://github.com/ry-ops/receipts) | Archived: moved into the ry-ops.dev blog. See ry-ops.dev/category/receipts | 0 |
-
-**☁️ Cloud · fabric-forge**
-
-| Repo | What it is | ★ |
-|---|---|--:|
-| [fabric-forge/driveiq-cloud](https://github.com/fabric-forge/driveiq-cloud) | DriveIQ backend — Hono/Cloudflare Workers (serverless replatform of ry-ops/DriveIQ) | 0 |
-| [fabric-forge/driveiq-ui](https://github.com/fabric-forge/driveiq-ui) | DriveIQ frontend — served at driveiq.ry-ops.dev (serverless replatform of ry-ops/DriveIQ) | 0 |
 
 **🚀 Mission control · TAEM-DEV**
 
