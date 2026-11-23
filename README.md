@@ -49,11 +49,11 @@ ESP32 firmware for M5Stack devices lives in its own org, **[m5stack-lab](https:/
 ## ✍️ Latest from the blog
 
 <!-- BLOG:START -->
+- [Cairn: A Pocket Notebook for Your Mac, Now Open Source](https://ry-ops.dev/posts/2026-11-17-cairn-a-pocket-notebook-for-your-mac-now-open-source/) <sub>· Nov 17, 2026</sub>
+- [Receipts: How Cairn Was Built, and What Backs the Post](https://ry-ops.dev/posts/2026-11-17-receipts-cairn-behind-the-scenes/) <sub>· Nov 17, 2026</sub>
 - [DriveIQ 2.0: Your Own Vehicle Assistant, One Button Away](https://ry-ops.dev/posts/2026-11-14-driveiq-2-0-your-own-vehicle-assistant-one-button-away/) <sub>· Nov 14, 2026</sub>
 - [Moving DriveIQ's Search from Qdrant to Cloudflare Vectorize](https://ry-ops.dev/posts/2026-11-14-moving-driveiq-search-from-qdrant-to-cloudflare-vectorize/) <sub>· Nov 14, 2026</sub>
 - [Receipts: DriveIQ's Move to Vectorize, Behind the Scenes](https://ry-ops.dev/posts/2026-11-14-receipts-driveiq-vectorize-behind-the-scenes/) <sub>· Nov 14, 2026</sub>
-- [proxmox-mcp-server 2.14: Datacenter Manager, and an OS by Asking](https://ry-ops.dev/posts/2026-11-12-proxmox-mcp-server-2-14-datacenter-manager-and-an-os-by-asking/) <sub>· Nov 12, 2026</sub>
-- [Receipts: proxmox-mcp-server 2.14, Behind the Scenes](https://ry-ops.dev/posts/2026-11-12-receipts-proxmox-mcp-server-2-14-behind-the-scenes/) <sub>· Nov 12, 2026</sub>
 <!-- BLOG:END -->
 
 More at **[ry-ops.dev](https://ry-ops.dev)**.
@@ -68,7 +68,7 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 81 |
+| [proxmox-mcp-server](https://github.com/ry-ops/proxmox-mcp-server) | MCP server for managing Proxmox Virtual Environment VMs, containers, storage, and cluster resources | 98 |
 | [unifi-mcp-server](https://github.com/ry-ops/unifi-mcp-server) | MCP server for the full UniFi Network API, cloud-only through unifi.ui.com <sub>(fork)</sub> | 15 |
 | [k3s-mcp-server](https://github.com/ry-ops/k3s-mcp-server) | MCP server for K3s: tools for workloads, troubleshooting, rollouts and server-side apply, scoped by your kubeconfig's RBAC | 5 |
 | [starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server) | MCP server for managing Starlink terminal fleet through the Starlink Enterprise API | 3 |
@@ -98,10 +98,15 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 
 | Repo | What it is | ★ |
 |---|---|--:|
-| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 5 |
+| [fortigate-mcp-server](https://github.com/ry-ops/fortigate-mcp-server) | MCP server for managing Fortinet FortiGate firewalls (FortiOS 7.6 REST API) with AI | 6 |
 | [mr-robot](https://github.com/ry-ops/mr-robot) | An ADR-driven security framework for Kali — a HackTheBox co-pilot orchestrating Hat-persona Claude agents across a shared arcade and a cross-engagement memory layer. | 3 |
 | [afm-studio](https://github.com/ry-ops/afm-studio) | Apple's on-device foundation model as a Mac app, a CLI, an MCP server for Claude, and a local OpenAI-compatible API. Pure Swift. | 2 |
 | [commit-relay](https://github.com/ry-ops/commit-relay) | Autonomous multi-agent AI platform for GitHub repository lifecycle management. MoE routing, self-healing workers, LLM mesh gateway, RAG-enhanced context, enterprise governance. [Archived] | 2 |
+| [git-fabric/cve](https://github.com/git-fabric/cve) | CVE detection-to-remediation fabric app. Scan, enrich, triage, and fix vulnerabilities across managed repos. | 2 |
+| [eagle-scout-extension](https://github.com/ry-ops/eagle-scout-extension) | Docker Desktop extension for Docker Scout security scanning | 2 |
+| [git-fabric/gateway](https://github.com/git-fabric/gateway) | Fabric gateway — routes, connects, and orchestrates git-fabric apps. The connective tissue. | 2 |
+| [git-fabric/git](https://github.com/git-fabric/git) | Git operations fabric app — commit, push, branch, PR, and repo management as a composable MCP layer | 2 |
+| [git-fabric/k8s](https://github.com/git-fabric/k8s) | Kubernetes operations fabric app — cluster, pods, deployments, services, and logs as a composable MCP layer | 2 |
 | [unifi-cloudflare-ddns](https://github.com/ry-ops/unifi-cloudflare-ddns) | Cloudflare Worker enabling UniFi devices to dynamically update DNS A/AAAA records | 2 |
 | [git-fabric/adr](https://github.com/git-fabric/adr) | Global Architecture Decision Records for the git-fabric organization | 1 |
 | [AEO](https://github.com/ry-ops/AEO) | Answer Engine Optimization (AEO) content strategy implementation for ry-ops.dev - optimizing for AI-powered search engines | 1 |
@@ -110,27 +115,23 @@ More at **[ry-ops.dev](https://ry-ops.dev)**.
 | [ATSFlow](https://github.com/ry-ops/ATSFlow) | AI-powered resume optimization tool that matches resumes to job descriptions and ensures ATS/LPS compatibility | 1 |
 | [azure-help](https://github.com/ry-ops/azure-help) | Notes and playbooks for the non-obvious corners of the Azure portal | 1 |
 | [bloatkill](https://github.com/ry-ops/bloatkill) | Windows storage cleanup reference: a zero-dependency audit dashboard | 1 |
+| [cairn](https://github.com/ry-ops/cairn) | Cairn: a markdown notebook app for the Mac, styled like a pocket memo book. Plain .md files you own, GitHub sync, animated covers. | 1 |
 | [capture-cadence](https://github.com/ry-ops/capture-cadence) | Scheduled full-page website screenshot automation. Puppeteer + Express.js with web UI, custom intervals, WebP output, and Docker support. [Archived] | 1 |
 | [cf-deploy](https://github.com/ry-ops/cf-deploy) | Shared GitHub Actions workflows for deploying Cloudflare Pages sites and Workers | 1 |
 | [git-fabric/chat](https://github.com/git-fabric/chat) | Chat fabric app — AI conversation sessions, semantic history search, and context threading as a composable MCP layer | 1 |
 | [git-fabric/cloudflare](https://github.com/git-fabric/cloudflare) | Cloudflare fabric app — DNS, zones, cache, and KV as a composable MCP layer | 1 |
 | [git-fabric/cloudflare-vllm](https://github.com/git-fabric/cloudflare-vllm) | Cloudflare-Ops — API-specialized Ollama Modelfile for Cloudflare v4 API (fabric-llm L3+L7 edge) | 1 |
-| [git-fabric/cve](https://github.com/git-fabric/cve) | CVE detection-to-remediation fabric app. Scan, enrich, triage, and fix vulnerabilities across managed repos. | 1 |
 | [git-fabric/cve-vllm](https://github.com/git-fabric/cve-vllm) | CVE-Ops — API-specialized Ollama Modelfile for NVD/GHSA/CISA KEV CVE pipeline (fabric-llm L3+L7 vuln intel) | 1 |
 | [DriveIQ](https://github.com/ry-ops/DriveIQ) | Intelligent vehicle management app — maintenance tracking, service reminders, CARFAX integration, and AI-powered manual consultation for any vehicle. | 1 |
-| [eagle-scout-extension](https://github.com/ry-ops/eagle-scout-extension) | Docker Desktop extension for Docker Scout security scanning | 1 |
 | [git-fabric/fabric-ctrl](https://github.com/git-fabric/fabric-ctrl) | Zero-trust control plane for the git-fabric org. GitHub App identity, security automation, and MCP org tooling. | 1 |
 | [git-fabric/fabric-forge](https://github.com/git-fabric/fabric-forge) | Forge the fabric. k3s cluster + Helm charts for the Fabric-SDK runtime. One script, full stack. | 1 |
 | [git-fabric/fabric-invoke-vllm](https://github.com/git-fabric/fabric-invoke-vllm) | fabric-invoke — Ollama Modelfile for orchestration runtime intelligence (L4+L6 interceptor) | 1 |
 | [git-fabric/fabric-review](https://github.com/git-fabric/fabric-review) | Automated PR review engine for the git-fabric ecosystem | 1 |
 | [git-fabric/fabric-router-vllm](https://github.com/git-fabric/fabric-router-vllm) | fabric-router — Ollama Modelfile for fabric-sdk meta-routing intelligence (L3+L4 gateway) | 1 |
 | [git-fabric/fabric-state](https://github.com/git-fabric/fabric-state) | CVE queue state and scan history for fabric-ctrl | 1 |
-| [git-fabric/gateway](https://github.com/git-fabric/gateway) | Fabric gateway — routes, connects, and orchestrates git-fabric apps. The connective tissue. | 1 |
-| [git-fabric/git](https://github.com/git-fabric/git) | Git operations fabric app — commit, push, branch, PR, and repo management as a composable MCP layer | 1 |
 | [git-fabric/git-steer-vllm](https://github.com/git-fabric/git-steer-vllm) | git-steer-Ops — Ollama Modelfile for git-steer internal architecture (fabric-llm meta-layer) | 1 |
 | [git-fabric/github-vllm](https://github.com/git-fabric/github-vllm) | GitHub-Ops — API-specialized Ollama Modelfile for GitHub REST API (fabric-llm L3+L5+L6+L7 substrate) | 1 |
 | [git-fabric/k3s-vllm](https://github.com/git-fabric/k3s-vllm) | k3s/Kubernetes API intelligence model — fabric-llm | 1 |
-| [git-fabric/k8s](https://github.com/git-fabric/k8s) | Kubernetes operations fabric app — cluster, pods, deployments, services, and logs as a composable MCP layer | 1 |
 | [git-fabric/n8n-vllm](https://github.com/git-fabric/n8n-vllm) | n8n-Ops — API-specialized Ollama Modelfile for n8n REST API v1 (fabric-llm L5+L6+L7 orchestration) | 1 |
 | [git-fabric/pipelines](https://github.com/git-fabric/pipelines) | Automated fabric pipelines — composing gateway tools into ambient homelab intelligence | 1 |
 | [playbooks](https://github.com/ry-ops/playbooks) | Mr. Robot unlock playbooks — declarative YAML task/finding rules | 1 |
