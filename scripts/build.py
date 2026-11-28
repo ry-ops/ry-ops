@@ -25,7 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 USER = "ry-ops"
-ORGS = ["m5stack-lab", "git-fabric", "fabric-forge", "TAEM-DEV", "cortex-io"]
+ORGS = ["m5stack-lab", "fabric-forge"]
 SKIP = {"ry-ops/ry-ops"}
 FEED = "https://ry-ops.dev/rss.xml"
 UA = "Mozilla/5.0 (compatible; ry-ops-profile-refresh; +https://github.com/ry-ops/ry-ops)"
@@ -37,10 +37,7 @@ MCP_SERVERS = [
     ("k3s-mcp-server", "k3s", "K3s · kubectl operations for Claude"),
     ("cloudflare-mcp-server", "cloudflare", "Cloudflare · DNS, Workers, zones"),
     ("starlink-enterprise-mcp-server", "starlink", "Starlink Enterprise · terminal fleet"),
-    ("microsoft-graph-mcp-server", "microsoft-graph", "Microsoft 365 · users, licenses, groups"),
     ("eagle-scout", "eagle-scout", "Docker Scout · CVE + SBOM scanning"),
-    ("qdrant-fabric", "qdrant-fabric", "Qdrant · semantic search for RAG"),
-    ("n8n-fabric", "n8n-fabric", "n8n · workflows with vector memory"),
     ("aiana", "aiana", "Claude Code · conversation memory"),
     ("git-steer", "git-steer", "GitHub · autonomous repo management"),
 ]
@@ -48,17 +45,13 @@ MCP_SERVERS = [
 # Fallback descriptions for public repos that have none on GitHub.
 DESCRIPTIONS = {
     "doomagotchi": "Self-playing DOOM on an M5Stack Tab5 that turns live 2.4 GHz RF into demons",
-    "azure-help": "Notes and playbooks for the non-obvious corners of the Azure portal",
-    "bloatkill": "Windows storage cleanup reference: a zero-dependency audit dashboard",
 }
 
 SECTIONS = [  # (title, predicate)
     ("🔌 MCP servers", lambda r: r["name"] in {s[0] for s in MCP_SERVERS} and r["owner"] == USER),
     ("🔬 Hardware · m5stack-lab", lambda r: r["owner"] == "m5stack-lab"),
-    ("🧪 Tools & experiments", lambda r: r["owner"] in (USER, "git-fabric")),
+    ("🧪 Tools & experiments", lambda r: r["owner"] == USER),
     ("☁️ Cloud · fabric-forge", lambda r: r["owner"] == "fabric-forge"),
-    ("🚀 Mission control · TAEM-DEV", lambda r: r["owner"] == "TAEM-DEV"),
-    ("🗄️ Archive · cortex-io", lambda r: r["owner"] == "cortex-io"),
 ]
 
 # Language groups for the bar, in fixed categorical order (validated palette, dark steps).
